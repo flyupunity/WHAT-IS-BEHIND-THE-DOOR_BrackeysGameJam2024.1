@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: ebad28d0d32fc17429ec7edcac2c0491
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5697343094795606122
+    second: Warning_Game is for entertainment purposes only_0
+  - first:
+      213: -2650466283365652580
+    second: Warning_Game is for entertainment purposes only_1
+  - first:
+      213: -7289432040867792974
+    second: Warning_Game is for entertainment purposes only_2
+  - first:
+      213: -5167905747979108990
+    second: Warning_Game is for entertainment purposes only_3
+  - first:
+      213: 7319072302938668265
+    second: Warning_Game is for entertainment purposes only_4
+  - first:
+      213: 5977389026872001986
+    second: Warning_Game is for entertainment purposes only_5
+  - first:
+      213: 5515832584780869211
+    second: Warning_Game is for entertainment purposes only_6
+  - first:
+      213: 7375835207307029841
+    second: Warning_Game is for entertainment purposes only_7
+  - first:
+      213: 7003096589041863134
+    second: Warning_Game is for entertainment purposes only_8
+  - first:
+      213: -2103832924359404395
+    second: Warning_Game is for entertainment purposes only_9
+  - first:
+      213: 2633956487275316792
+    second: Warning_Game is for entertainment purposes only_10
+  - first:
+      213: -6202476234338055706
+    second: Warning_Game is for entertainment purposes only_11
+  - first:
+      213: -266987981339943940
+    second: Warning_Game is for entertainment purposes only_12
+  - first:
+      213: -8417832717317461025
+    second: Warning_Game is for entertainment purposes only_13
+  - first:
+      213: 1102382427180297091
+    second: Warning_Game is for entertainment purposes only_14
+  - first:
+      213: 7316199453523500502
+    second: Warning_Game is for entertainment purposes only_15
+  - first:
+      213: -5417895620525360021
+    second: Warning_Game is for entertainment purposes only_16
+  - first:
+      213: 8379178014981545023
+    second: Warning_Game is for entertainment purposes only_17
+  - first:
+      213: -6632163748914222341
+    second: Warning_Game is for entertainment purposes only_18
+  - first:
+      213: -3969359069102492195
+    second: Warning_Game is for entertainment purposes only_19
+  - first:
+      213: -4632449295669428867
+    second: Warning_Game is for entertainment purposes only_20
+  - first:
+      213: 9006406749329744313
+    second: Warning_Game is for entertainment purposes only_21
+  - first:
+      213: -4318758609515945386
+    second: Warning_Game is for entertainment purposes only_22
+  - first:
+      213: 8116783199891979933
+    second: Warning_Game is for entertainment purposes only_23
+  - first:
+      213: -1761105232856274117
+    second: Warning_Game is for entertainment purposes only_24
+  - first:
+      213: -1812018526686456317
+    second: Warning_Game is for entertainment purposes only_25
+  - first:
+      213: -1137758283610146139
+    second: Warning_Game is for entertainment purposes only_26
+  - first:
+      213: 3702674678860127973
+    second: Warning_Game is for entertainment purposes only_27
+  - first:
+      213: -561422824984429885
+    second: Warning_Game is for entertainment purposes only_28
+  - first:
+      213: -1461036224629891477
+    second: Warning_Game is for entertainment purposes only_29
+  - first:
+      213: 3319979752714715421
+    second: Warning_Game is for entertainment purposes only_30
+  - first:
+      213: 5735376193063080502
+    second: Warning_Game is for entertainment purposes only_31
+  - first:
+      213: 2406391899318527397
+    second: Warning_Game is for entertainment purposes only_32
+  - first:
+      213: 6323050162941941173
+    second: Warning_Game is for entertainment purposes only_33
+  - first:
+      213: -6349267443249794166
+    second: Warning_Game is for entertainment purposes only_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1044
+        width: 143
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6811d0eb57011f40800000000000000
+      internalID: 5697343094795606122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1179
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9727d245f6a73bd0800000000000000
+      internalID: -2650466283365652580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1047
+        width: 68
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b779bd0e2cb6da90800000000000000
+      internalID: -7289432040867792974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_3
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1044
+        width: 57
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d710b5a19e748b0800000000000000
+      internalID: -5167905747979108990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_4
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1044
+        width: 118
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec3f0e3b71929560800000000000000
+      internalID: 7319072302938668265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_5
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1179
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5060f76a3f3f250800000000000000
+      internalID: 5977389026872001986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_6
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1044
+        width: 57
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e6360038c2c8c40800000000000000
+      internalID: 5515832584780869211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_7
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 1047
+        width: 23
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dea5dca0b3c5660800000000000000
+      internalID: 7375835207307029841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1044
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed907956e3fff2160800000000000000
+      internalID: 7003096589041863134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_9
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1047
+        width: 153
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59459c41a1fadc2e0800000000000000
+      internalID: -2103832924359404395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_10
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1044
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83681e94871bd8420800000000000000
+      internalID: 2633956487275316792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_11
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1047
+        width: 22
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e94a7c1ab06ce9a0800000000000000
+      internalID: -6202476234338055706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_12
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1044
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb1fe478d77b4cf0800000000000000
+      internalID: -266987981339943940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_13
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1044
+        width: 107
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdba1a14eb9dd2b80800000000000000
+      internalID: -8417832717317461025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_14
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1047
+        width: 63
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38be6b21af27c4f00800000000000000
+      internalID: 1102382427180297091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_15
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1044
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dddc2dd3ac588560800000000000000
+      internalID: 7316199453523500502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_16
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1047
+        width: 92
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf07c63a4cfc4b0800000000000000
+      internalID: -5417895620525360021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_17
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1044
+        width: 105
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cdcb48202d84470800000000000000
+      internalID: 8379178014981545023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_18
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1044
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaaeb58532d5f3a0800000000000000
+      internalID: -6632163748914222341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_19
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1047
+        width: 22
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5bb2c05f00ae8c0800000000000000
+      internalID: -3969359069102492195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1047
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d7d9bc8eb36bfb0800000000000000
+      internalID: -4632449295669428867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_21
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1047
+        width: 153
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1ea74783f2dfc70800000000000000
+      internalID: 9006406749329744313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_22
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1044
+        width: 105
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65264292defa014c0800000000000000
+      internalID: -4318758609515945386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_23
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1047
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e7b64d05b94a070800000000000000
+      internalID: 8116783199891979933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_24
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1005
+        width: 99
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b25871f1c4f87e0800000000000000
+      internalID: -1761105232856274117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_25
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 1044
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3065d6e10ca6ad6e0800000000000000
+      internalID: -1812018526686456317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_26
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1047
+        width: 63
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aab8218eded530f0800000000000000
+      internalID: -1137758283610146139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_27
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1005
+        width: 99
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee9a48b00b826330800000000000000
+      internalID: 3702674678860127973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_28
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1044
+        width: 107
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cab10c4aec6538f0800000000000000
+      internalID: -561422824984429885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_29
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 1044
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e15fa6b4b59bbe0800000000000000
+      internalID: -1461036224629891477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_30
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1044
+        width: 105
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11cc0ebeffe21e20800000000000000
+      internalID: 3319979752714715421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_31
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 1044
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632d1c0a246289f40800000000000000
+      internalID: 5735376193063080502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_32
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 1044
+        width: 106
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5224dcea8356120800000000000000
+      internalID: 2406391899318527397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_33
+      rect:
+        serializedVersion: 2
+        x: 3697
+        y: 1047
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5512b4f9cffb750800000000000000
+      internalID: 6323050162941941173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning_Game is for entertainment purposes only_34
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 1002
+        width: 103
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83b42576eed2e7a0800000000000000
+      internalID: -6349267443249794166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Warning_Game is for entertainment purposes only_0: 5697343094795606122
+      Warning_Game is for entertainment purposes only_1: -2650466283365652580
+      Warning_Game is for entertainment purposes only_10: 2633956487275316792
+      Warning_Game is for entertainment purposes only_11: -6202476234338055706
+      Warning_Game is for entertainment purposes only_12: -266987981339943940
+      Warning_Game is for entertainment purposes only_13: -8417832717317461025
+      Warning_Game is for entertainment purposes only_14: 1102382427180297091
+      Warning_Game is for entertainment purposes only_15: 7316199453523500502
+      Warning_Game is for entertainment purposes only_16: -5417895620525360021
+      Warning_Game is for entertainment purposes only_17: 8379178014981545023
+      Warning_Game is for entertainment purposes only_18: -6632163748914222341
+      Warning_Game is for entertainment purposes only_19: -3969359069102492195
+      Warning_Game is for entertainment purposes only_2: -7289432040867792974
+      Warning_Game is for entertainment purposes only_20: -4632449295669428867
+      Warning_Game is for entertainment purposes only_21: 9006406749329744313
+      Warning_Game is for entertainment purposes only_22: -4318758609515945386
+      Warning_Game is for entertainment purposes only_23: 8116783199891979933
+      Warning_Game is for entertainment purposes only_24: -1761105232856274117
+      Warning_Game is for entertainment purposes only_25: -1812018526686456317
+      Warning_Game is for entertainment purposes only_26: -1137758283610146139
+      Warning_Game is for entertainment purposes only_27: 3702674678860127973
+      Warning_Game is for entertainment purposes only_28: -561422824984429885
+      Warning_Game is for entertainment purposes only_29: -1461036224629891477
+      Warning_Game is for entertainment purposes only_3: -5167905747979108990
+      Warning_Game is for entertainment purposes only_30: 3319979752714715421
+      Warning_Game is for entertainment purposes only_31: 5735376193063080502
+      Warning_Game is for entertainment purposes only_32: 2406391899318527397
+      Warning_Game is for entertainment purposes only_33: 6323050162941941173
+      Warning_Game is for entertainment purposes only_34: -6349267443249794166
+      Warning_Game is for entertainment purposes only_4: 7319072302938668265
+      Warning_Game is for entertainment purposes only_5: 5977389026872001986
+      Warning_Game is for entertainment purposes only_6: 5515832584780869211
+      Warning_Game is for entertainment purposes only_7: 7375835207307029841
+      Warning_Game is for entertainment purposes only_8: 7003096589041863134
+      Warning_Game is for entertainment purposes only_9: -2103832924359404395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
