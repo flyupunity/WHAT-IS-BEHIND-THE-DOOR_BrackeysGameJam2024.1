@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 5475942554591239090}
   - component: {fileID: 1730361428772009872}
   - component: {fileID: 1053268841504406148}
+  - component: {fileID: 3676124906176682863}
   m_Layer: 0
   m_Name: MyPlayerController
   m_TagString: Player
@@ -181,7 +182,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7729852616269605705}
@@ -202,7 +203,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3587105212175916767}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -217,7 +218,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7d1a3f08ed1613743be2ee65e0e6f9f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -345,6 +346,42 @@ MonoBehaviour:
   joint: {fileID: 7729852616269605705}
   bobSpeed: 10
   bobAmount: {x: 0, y: 0.1, z: 0}
+--- !u!114 &3676124906176682863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587105212175916767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15c0a0e979619f41b61dc7d92c6c9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  programmer: 0
+  Interact: 323
+  throwOut: 324
+  DrawRays: 323
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 55
+  IneventoryPoint: {fileID: 0}
+  ThrowOutPoint: {fileID: 0}
+  indexActiveObject: 0
+  Image: []
+  Buttons: {fileID: 0}
+  Frame: []
+  Ineventory: []
+  Key1: {fileID: 0}
+  piano: 0
+  PianoCamera: {fileID: 0}
+  KeyPianoInput: []
+  KeyPianoOutput: []
+  PuddleKey: {fileID: 0}
+  CapCap: {fileID: 0}
+  Tools: []
+  NeedTools: []
 --- !u!1 &3734038892517304213
 GameObject:
   m_ObjectHideFlags: 0
