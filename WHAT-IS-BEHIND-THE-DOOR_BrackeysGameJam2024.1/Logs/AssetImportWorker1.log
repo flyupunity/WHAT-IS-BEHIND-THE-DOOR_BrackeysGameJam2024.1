@@ -15,7 +15,7 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59182
+53638
 -job-worker-count
 3
 -background-job-worker-count
@@ -58,12 +58,12 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11132] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1179885325 [EditorId] 1179885325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [11132] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1179885325 [EditorId] 1179885325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15556] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 327966888 [EditorId] 327966888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15556] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 327966888 [EditorId] 327966888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 7.29 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 13.55 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 [Subsystems] Discovering subsystems at path E:/Programms/2023.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'E:/Programms/2023.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -96,45 +96,45 @@ Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEn
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.009981 seconds.
-- Loaded All Assemblies, in  0.826 seconds
+Registered in 0.009546 seconds.
+- Loaded All Assemblies, in  1.059 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 552 ms
+Android Extension - Scanning For ADB Devices 647 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  1.456 seconds
-Domain Reload Profiling: 2282ms
-	BeginReloadAssembly (289ms)
+- Finished resetting the current domain, in  1.738 seconds
+Domain Reload Profiling: 2796ms
+	BeginReloadAssembly (334ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (289ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (333ms)
-				TypeCache.ScanAssembly (306ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (407ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1457ms)
+	FinalizeReload (1739ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1334ms)
+		SetupLoadedEditorAssemblies (1574ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (867ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (22ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			InitializePlatformSupportModulesInManaged (915ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -157,592 +157,503 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.207 seconds
-Refreshing native plugins compatible for Editor in 5.33 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.693 seconds
+Refreshing native plugins compatible for Editor in 12.20 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.714 seconds
-Domain Reload Profiling: 4918ms
-	BeginReloadAssembly (864ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (1163ms)
-		LoadAssemblies (793ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (586ms)
-			TypeCache.Refresh (466ms)
-				TypeCache.ScanAssembly (430ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2715ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1047ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (778ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 68.62 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 230 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6760 unused Assets / (3.7 MB). Loaded Objects now: 7458.
-Memory consumption went from 204.4 MB to 200.7 MB.
-Total: 26.871100 ms (FindLiveObjects: 1.715400 ms CreateObjectMapping: 2.492000 ms MarkObjects: 14.282100 ms  DeleteObjects: 8.378100 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.261 seconds
-Refreshing native plugins compatible for Editor in 4.30 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.237 seconds
-Domain Reload Profiling: 3500ms
-	BeginReloadAssembly (346ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (762ms)
-		LoadAssemblies (585ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (323ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2238ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1726ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (1449ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (43ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 84.17 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6757 unused Assets / (4.0 MB). Loaded Objects now: 7465.
-Memory consumption went from 179.4 MB to 175.4 MB.
-Total: 87.692900 ms (FindLiveObjects: 1.770100 ms CreateObjectMapping: 1.732300 ms MarkObjects: 17.755300 ms  DeleteObjects: 66.430800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 37112.286324 seconds.
-  path: Assets/InputSystem/PlayerInputActions.inputactions
-  artifactKey: Guid(81cf68bf66f5d33489bd7a246fedd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem/PlayerInputActions.inputactions using Guid(81cf68bf66f5d33489bd7a246fedd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d20598b443dce2253b9947009e0b9dd') in 0.242862 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.573965 seconds.
-  path: Assets/Import/InteractKeys.prefab
-  artifactKey: Guid(c24f8f6a4d3f83a44a47ac741e541f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/InteractKeys.prefab using Guid(c24f8f6a4d3f83a44a47ac741e541f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 4.96 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'b7223daf9ee76533c77c436e65a7ec9f') in 1.240171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Import/Notes.prefab
-  artifactKey: Guid(aea8016e870b5df468a3911fd6bed640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Notes.prefab using Guid(aea8016e870b5df468a3911fd6bed640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e66d332dd2820581ce12e60bd53fbdc') in 0.130695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Import/Piano.prefab
-  artifactKey: Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Piano.prefab using Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 5.41 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '634217c5dc99d0848c239feda8f31589') in 0.5914776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2436
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.40 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (5.6 MB). Loaded Objects now: 7572.
-Memory consumption went from 178.7 MB to 173.1 MB.
-Total: 31.536600 ms (FindLiveObjects: 2.058300 ms CreateObjectMapping: 2.172800 ms MarkObjects: 19.534200 ms  DeleteObjects: 7.769300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 14.524 seconds
-Refreshing native plugins compatible for Editor in 59.91 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.403 seconds
-Domain Reload Profiling: 16928ms
-	BeginReloadAssembly (950ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (33ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (141ms)
-	RebuildCommonClasses (123ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (13343ms)
-		LoadAssemblies (6050ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7974ms)
-			TypeCache.Refresh (59ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (5876ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (2403ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1610ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (66ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (1239ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (10ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (46ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.42 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6758 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.7 MB to 176.9 MB.
-Total: 82.419300 ms (FindLiveObjects: 2.722300 ms CreateObjectMapping: 1.818500 ms MarkObjects: 66.346300 ms  DeleteObjects: 11.529100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.42 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.4 MB to 176.6 MB.
-Total: 77.554100 ms (FindLiveObjects: 1.996600 ms CreateObjectMapping: 1.882700 ms MarkObjects: 65.183800 ms  DeleteObjects: 8.488400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 368.198820 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a29eccf694d2108400d1fb371d3e3ecd') in 0.9965773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 128.81 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (8.1 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.0 MB to 172.0 MB.
-Total: 155.289300 ms (FindLiveObjects: 2.525600 ms CreateObjectMapping: 2.465400 ms MarkObjects: 13.522800 ms  DeleteObjects: 136.773100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.587413 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a3083b94fd94cba1da7ace3554ca150') in 0.0652353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.30 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (4.2 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.0 MB to 175.8 MB.
-Total: 215.323300 ms (FindLiveObjects: 2.180100 ms CreateObjectMapping: 2.097700 ms MarkObjects: 116.643600 ms  DeleteObjects: 94.399500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.873489 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecdfb24862c100510613816526a90360') in 0.1482765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.72 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.1 MB to 176.3 MB.
-Total: 95.809900 ms (FindLiveObjects: 2.639900 ms CreateObjectMapping: 73.981400 ms MarkObjects: 11.601300 ms  DeleteObjects: 7.585000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 36.146934 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81bd70607fff1c7b7ba347c55b0fabc') in 0.036932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 114.04 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.7 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.0 MB to 176.3 MB.
-Total: 22.923200 ms (FindLiveObjects: 2.058800 ms CreateObjectMapping: 1.907400 ms MarkObjects: 11.320100 ms  DeleteObjects: 7.633800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.46 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.7 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.0 MB to 176.3 MB.
-Total: 94.356400 ms (FindLiveObjects: 1.771300 ms CreateObjectMapping: 73.231300 ms MarkObjects: 11.125000 ms  DeleteObjects: 8.226600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 119.937025 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7a5602d773b35cc35b0971e92f3a6c1') in 0.4387763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.28 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.1 MB to 176.3 MB.
-Total: 199.259800 ms (FindLiveObjects: 3.048400 ms CreateObjectMapping: 1.762300 ms MarkObjects: 187.427800 ms  DeleteObjects: 7.018700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 77.02 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.1 MB to 176.3 MB.
-Total: 22.914900 ms (FindLiveObjects: 2.015000 ms CreateObjectMapping: 2.083100 ms MarkObjects: 11.399700 ms  DeleteObjects: 7.414700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 141.65 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.2 MB to 176.3 MB.
-Total: 33.490800 ms (FindLiveObjects: 2.161500 ms CreateObjectMapping: 1.974600 ms MarkObjects: 19.631000 ms  DeleteObjects: 9.720700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 46.033260 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c6bd8819d95402d190f01690222a495') in 0.4491715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 133.67 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.7 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.0 MB to 176.3 MB.
-Total: 26.074000 ms (FindLiveObjects: 2.431300 ms CreateObjectMapping: 2.461800 ms MarkObjects: 12.497300 ms  DeleteObjects: 8.679800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.464 seconds
-Refreshing native plugins compatible for Editor in 4.53 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.364 seconds
-Domain Reload Profiling: 2831ms
-	BeginReloadAssembly (355ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (956ms)
-		LoadAssemblies (784ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (316ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1365ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (923ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (685ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.89 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6758 unused Assets / (3.7 MB). Loaded Objects now: 7499.
-Memory consumption went from 182.5 MB to 178.7 MB.
-Total: 56.033100 ms (FindLiveObjects: 1.926000 ms CreateObjectMapping: 1.685300 ms MarkObjects: 11.213300 ms  DeleteObjects: 41.205600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.01 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.7 MB). Loaded Objects now: 7499.
-Memory consumption went from 182.3 MB to 178.6 MB.
-Total: 875.657700 ms (FindLiveObjects: 1.798300 ms CreateObjectMapping: 1.807800 ms MarkObjects: 859.863200 ms  DeleteObjects: 12.186100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 140.79 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7499.
-Memory consumption went from 182.4 MB to 178.6 MB.
-Total: 26.344400 ms (FindLiveObjects: 1.935600 ms CreateObjectMapping: 2.169200 ms MarkObjects: 13.057100 ms  DeleteObjects: 9.180100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 126.729336 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df534f75846871a7cbb2e7e86ff5cd0f') in 0.8976926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.444 seconds
-Refreshing native plugins compatible for Editor in 4.35 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.503 seconds
-Domain Reload Profiling: 2951ms
-	BeginReloadAssembly (411ms)
+- Finished resetting the current domain, in  3.664 seconds
+Domain Reload Profiling: 6354ms
+	BeginReloadAssembly (982ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (892ms)
-		LoadAssemblies (765ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1480ms)
+		LoadAssemblies (997ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (324ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1504ms)
+		AnalyzeDomain (756ms)
+			TypeCache.Refresh (595ms)
+				TypeCache.ScanAssembly (543ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3665ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (993ms)
+		SetupLoadedEditorAssemblies (1536ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (741ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (1115ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 135.62 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7204 unused Assets / (5.1 MB). Loaded Objects now: 7897.
+Memory consumption went from 207.1 MB to 201.9 MB.
+Total: 219.741100 ms (FindLiveObjects: 4.969900 ms CreateObjectMapping: 12.868700 ms MarkObjects: 21.124400 ms  DeleteObjects: 180.774200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37323.319485 seconds.
+  path: Assets/Sprites/Ask.png
+  artifactKey: Guid(3314eb8e42ef2a749a2803fc27de4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ask.png using Guid(3314eb8e42ef2a749a2803fc27de4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0068775678da5f731fb450183f6c139') in 0.8045648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/Coin.png
+  artifactKey: Guid(485eacfaec00a5241a3dce995d0f1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin.png using Guid(485eacfaec00a5241a3dce995d0f1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55d8db2dc2917a4ab0d2b87bc165591f') in 0.0878975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/donate_image_while.png
+  artifactKey: Guid(536ccb0665c9526488df2fd4e9f029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/donate_image_while.png using Guid(536ccb0665c9526488df2fd4e9f029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91b1685f65796e6139e1d57037bdb81e') in 0.0690877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Materials/Rack.mat
+  artifactKey: Guid(7832e7299ec898e4d838c825719a5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rack.mat using Guid(7832e7299ec898e4d838c825719a5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '295e2dffd6727a33743dda41206d267b') in 1.4231562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Materials/Screw.mat
+  artifactKey: Guid(d9a88054249fd9c46a33cb4d7137229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Screw.mat using Guid(d9a88054249fd9c46a33cb4d7137229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78e28cb8552e39a65b08bb6c6952f495') in 0.1041685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Close.png
+  artifactKey: Guid(2cddfd331871c2d4caa8c77fd636eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Close.png using Guid(2cddfd331871c2d4caa8c77fd636eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa3a0b8675f2106f470424e72aa98cb') in 0.1223534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Frame.png
+  artifactKey: Guid(5ecfd4da2ba8fdb4abd998140e45da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Frame.png using Guid(5ecfd4da2ba8fdb4abd998140e45da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23718aee4b78a5ee6ad197fb35595e78') in 0.1187288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/1FlizS.png
+  artifactKey: Guid(fcd7eaa5c601c2642998036689a08127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/1FlizS.png using Guid(fcd7eaa5c601c2642998036689a08127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7c53379fe84021d3c44bfdce1d06fc3') in 0.3677991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/Button2.png
+  artifactKey: Guid(631f8cb703005834a89cbfb350edb511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button2.png using Guid(631f8cb703005834a89cbfb350edb511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab46dbd7ef8139a4c37c224461ed892') in 0.1520394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Menu.png
+  artifactKey: Guid(2921ead43b8e3d246b07abdc312a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Menu.png using Guid(2921ead43b8e3d246b07abdc312a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f69965d9650f4f2d98c60f14fe780a7') in 0.2196041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Sprites/Enemy.png
+  artifactKey: Guid(7907d7ad98599314191054f6e19939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy.png using Guid(7907d7ad98599314191054f6e19939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '234189d5c52becc8b645635334a2f548') in 0.2343391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprites/Cube.png
+  artifactKey: Guid(b32754b55282d5741a5e846b0a7dfc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cube.png using Guid(b32754b55282d5741a5e846b0a7dfc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628c1a928ce43fa31c032dc4d3dbb97e') in 0.1241985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/Notes.mat
+  artifactKey: Guid(e7deb7189420e5843b3a55a71308dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Notes.mat using Guid(e7deb7189420e5843b3a55a71308dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5acabf32d54fd560502e598e91084c') in 0.1257798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Delete.png
+  artifactKey: Guid(37425b8f3b41f14479f7436e6f5a7ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Delete.png using Guid(37425b8f3b41f14479f7436e6f5a7ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e80d84ed7b072e4c2fd304bba175e3a') in 0.1377367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials/Door_Metal.mat
+  artifactKey: Guid(4f6aafeeee2363640a1320cb7effea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Door_Metal.mat using Guid(4f6aafeeee2363640a1320cb7effea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72312068412e1c22a3c470245de4661') in 0.1900111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Cards.png
+  artifactKey: Guid(f923f9bd73a822c46992c5a80ffafb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cards.png using Guid(f923f9bd73a822c46992c5a80ffafb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff809af13303141142d16ff3a6d3d584') in 0.1023028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprites/Panel.png
+  artifactKey: Guid(ee4a7142ba60828468aeac6389df22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panel.png using Guid(ee4a7142ba60828468aeac6389df22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af24734b3aefd2a120a25cf8ac959be4') in 0.0790971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/ghbrthfyhr.png
+  artifactKey: Guid(02e8eea32b560a44eb5f262ba395d747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ghbrthfyhr.png using Guid(02e8eea32b560a44eb5f262ba395d747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26f19114a91623792bc41bdc6a2797a0') in 0.6454578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.74 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (3.4 MB). Loaded Objects now: 8048.
+Memory consumption went from 166.0 MB to 162.6 MB.
+Total: 32.138600 ms (FindLiveObjects: 2.517700 ms CreateObjectMapping: 2.168500 ms MarkObjects: 22.965500 ms  DeleteObjects: 4.480400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.36 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7179 unused Assets / (7.8 MB). Loaded Objects now: 8057.
+Memory consumption went from 171.6 MB to 163.8 MB.
+Total: 120.185800 ms (FindLiveObjects: 2.087100 ms CreateObjectMapping: 1.969200 ms MarkObjects: 107.194300 ms  DeleteObjects: 8.932700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.63 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7179 unused Assets / (3.8 MB). Loaded Objects now: 8057.
+Memory consumption went from 171.4 MB to 167.6 MB.
+Total: 99.573000 ms (FindLiveObjects: 2.226600 ms CreateObjectMapping: 2.196600 ms MarkObjects: 84.770200 ms  DeleteObjects: 10.377400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.844 seconds
+Refreshing native plugins compatible for Editor in 8.20 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.510 seconds
+Domain Reload Profiling: 8362ms
+	BeginReloadAssembly (1041ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (324ms)
+	RebuildCommonClasses (541ms)
+	RebuildNativeTypeToScriptingClass (189ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (2922ms)
+		LoadAssemblies (2641ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (849ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (729ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (3511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (122ms)
+			SetLoadedEditorAssemblies (26ms)
+			BeforeProcessingInitializeOnLoad (411ms)
+			ProcessInitializeOnLoadAttributes (1820ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (45ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.24 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 21.05 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6758 unused Assets / (3.7 MB). Loaded Objects now: 7500.
-Memory consumption went from 184.4 MB to 180.7 MB.
-Total: 22.819700 ms (FindLiveObjects: 1.967400 ms CreateObjectMapping: 1.912900 ms MarkObjects: 11.498500 ms  DeleteObjects: 7.438400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.56 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7500.
-Memory consumption went from 184.3 MB to 180.5 MB.
-Total: 205.533900 ms (FindLiveObjects: 1.964500 ms CreateObjectMapping: 2.139400 ms MarkObjects: 190.579400 ms  DeleteObjects: 10.848300 ms)
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (6.2 MB). Loaded Objects now: 7989.
+Memory consumption went from 182.7 MB to 176.5 MB.
+Total: 33.383500 ms (FindLiveObjects: 2.481400 ms CreateObjectMapping: 3.073800 ms MarkObjects: 14.163700 ms  DeleteObjects: 13.660700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 107.435746 seconds.
-  path: Assets/Scripts/ObjectType.cs
-  artifactKey: Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ObjectType.cs using Guid(fb799eaceb1971842b5d5328d490101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3661a7965dff41e4e907f93a502c203a') in 0.3614827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1107.310171 seconds.
+  path: Assets/Audio/MainAudioMixer.mixer
+  artifactKey: Guid(6fda8d05c98cf4a4c8caa65906010d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MainAudioMixer.mixer using Guid(6fda8d05c98cf4a4c8caa65906010d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 6.77 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '86bcf15be47d7248a5ab66f46e6a3de4') in 0.0827606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
+========================================================================
+Received Import Request.
+  Time since last request: 97.435073 seconds.
+  path: Assets/Sprites/001qrcode_www.youtube.com.png
+  artifactKey: Guid(93cb41ad8b096a94992d1316d33510d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/001qrcode_www.youtube.com.png using Guid(93cb41ad8b096a94992d1316d33510d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b5eaa4faf4d3e0c7a3cc4ee64e8faf8') in 0.088121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Ask.png
+  artifactKey: Guid(3314eb8e42ef2a749a2803fc27de4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ask.png using Guid(3314eb8e42ef2a749a2803fc27de4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33eb19ea04783603d1e1216778c3d8d4') in 0.0209171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Button/Button.png
+  artifactKey: Guid(7958c3a295f64134db7a0d89c711af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/Button.png using Guid(7958c3a295f64134db7a0d89c711af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4036c4165234c9f233396661a1a15c7') in 0.0208246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Button/Button_Hight 1.png
+  artifactKey: Guid(4cf3d4c0c8b0a7149a6c9372a51bb0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/Button_Hight 1.png using Guid(4cf3d4c0c8b0a7149a6c9372a51bb0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5306edc3e9719fdab910c6d785e7052b') in 0.0888373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/donate_image_while.png
+  artifactKey: Guid(536ccb0665c9526488df2fd4e9f029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/donate_image_while.png using Guid(536ccb0665c9526488df2fd4e9f029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5613b9503c906c7304e36c30a10ea798') in 0.0220056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Icon/Key2.png
+  artifactKey: Guid(a6199d911647ce744b53a3c225d8c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon/Key2.png using Guid(a6199d911647ce744b53a3c225d8c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a840162e67ecadd869fdec1e7292b5') in 0.0430593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Menu.png
+  artifactKey: Guid(2921ead43b8e3d246b07abdc312a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Menu.png using Guid(2921ead43b8e3d246b07abdc312a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87a232922759afb94edbb4c7bbafb9ba') in 0.0399781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/blenderii.blend0001_original.png
+  artifactKey: Guid(b73ec0f8dda49164bb89b506646a603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/blenderii.blend0001_original.png using Guid(b73ec0f8dda49164bb89b506646a603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b77031df54f5c6757d0d6640f408f79') in 0.0349883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Slider/fx2.png
+  artifactKey: Guid(6484aff87c6f51644bdc4ebb5fdd5be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slider/fx2.png using Guid(6484aff87c6f51644bdc4ebb5fdd5be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e669ddc27579733bdae49773b62be3') in 0.0350618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Slider/1214124.png
+  artifactKey: Guid(af0f246ecce42e74d9d0d08569887e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slider/1214124.png using Guid(af0f246ecce42e74d9d0d08569887e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f7994b6b1a45a3ffa84cfd703ce3762') in 0.043493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/arrow_button.png
+  artifactKey: Guid(858b9535b817af74b893625a186112f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/arrow_button.png using Guid(858b9535b817af74b893625a186112f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0ca7de8a64ec08e03b1dd1c5723d6f') in 0.0335021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Settings.png
+  artifactKey: Guid(ebcf5b3d62405f94aa84e131bc307bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Settings.png using Guid(ebcf5b3d62405f94aa84e131bc307bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b7a196ca30113c5505997763c447fc4') in 0.0357269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Icon/Key1.png
+  artifactKey: Guid(a94414da58804f04da3f16dab0254bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon/Key1.png using Guid(a94414da58804f04da3f16dab0254bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b317a2b7f29dd9abed5c0150d0629a') in 0.0456485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Close.png
+  artifactKey: Guid(2cddfd331871c2d4caa8c77fd636eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Close.png using Guid(2cddfd331871c2d4caa8c77fd636eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '681a06dbcccb41e4dbe790d42f4103d8') in 0.0271763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/ParticalSystem/Drop3.png
+  artifactKey: Guid(5a2b4db9cedfbc04a9d02c08f37202f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ParticalSystem/Drop3.png using Guid(5a2b4db9cedfbc04a9d02c08f37202f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6868942039ec5c873798b87a60cc7979') in 0.042817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Enemy.png
+  artifactKey: Guid(7907d7ad98599314191054f6e19939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy.png using Guid(7907d7ad98599314191054f6e19939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6cc1f882ee7981948a0d5ad2490f03a') in 0.050441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Warning0.png
+  artifactKey: Guid(e2ec0e62f248cdc45871aca9d02258c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Warning0.png using Guid(e2ec0e62f248cdc45871aca9d02258c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c732d924fbb8920193e918d948c8fe2') in 0.3940938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Icon/Notes.png
+  artifactKey: Guid(15814ac61a0c99248a05d90f65d12f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon/Notes.png using Guid(15814ac61a0c99248a05d90f65d12f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fffddd788bc032e794cc510257f1aad5') in 0.038572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Panel/panel_004.png
+  artifactKey: Guid(c3b55846695cc3b43bf03a4fba23db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panel/panel_004.png using Guid(c3b55846695cc3b43bf03a4fba23db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8478cbc3861986b97fc1d2a6a4928f84') in 0.0444241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/_MhXpv.png
+  artifactKey: Guid(a34a44da2576b7b45b45d901a094e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/_MhXpv.png using Guid(a34a44da2576b7b45b45d901a094e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dac550d8cc3f098889aa153a84966f0') in 0.0483001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Slider/fx1.png
+  artifactKey: Guid(6960d32d82f81bf4fad92bdc3d8fc03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slider/fx1.png using Guid(6960d32d82f81bf4fad92bdc3d8fc03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cf38d8cdcf37bf1af232fd7752a9ef7') in 0.0340041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Slider/8.png
+  artifactKey: Guid(aa56c8eab21c1a045ab6fe59058e8362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slider/8.png using Guid(aa56c8eab21c1a045ab6fe59058e8362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02eda6ca0ead62aff9d9f98f2c2b2529') in 0.0284576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 66.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7178 unused Assets / (6.9 MB). Loaded Objects now: 8046.
+Memory consumption went from 181.0 MB to 174.1 MB.
+Total: 24.726900 ms (FindLiveObjects: 1.990200 ms CreateObjectMapping: 1.804000 ms MarkObjects: 12.852500 ms  DeleteObjects: 8.077300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -760,153 +671,75 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.424 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.399 seconds
+Refreshing native plugins compatible for Editor in 7.29 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.315 seconds
-Domain Reload Profiling: 2740ms
-	BeginReloadAssembly (475ms)
+- Finished resetting the current domain, in  1.761 seconds
+Domain Reload Profiling: 3163ms
+	BeginReloadAssembly (372ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (793ms)
-		LoadAssemblies (684ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (888ms)
+		LoadAssemblies (677ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (354ms)
-			TypeCache.Refresh (14ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (15ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (310ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1315ms)
+			BuildScriptInfoCaches (346ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1762ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (891ms)
+		SetupLoadedEditorAssemblies (1212ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (651ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.79 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6758 unused Assets / (3.9 MB). Loaded Objects now: 7501.
-Memory consumption went from 186.4 MB to 182.6 MB.
-Total: 23.246800 ms (FindLiveObjects: 2.200100 ms CreateObjectMapping: 1.723000 ms MarkObjects: 10.881100 ms  DeleteObjects: 8.439400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.63 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (3.8 MB). Loaded Objects now: 7501.
-Memory consumption went from 186.2 MB to 182.4 MB.
-Total: 120.699400 ms (FindLiveObjects: 91.211000 ms CreateObjectMapping: 1.953200 ms MarkObjects: 16.952100 ms  DeleteObjects: 10.579400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.316 seconds
-Refreshing native plugins compatible for Editor in 5.47 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.337 seconds
-Domain Reload Profiling: 2655ms
-	BeginReloadAssembly (382ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (790ms)
-		LoadAssemblies (648ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (357ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (310ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1338ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (912ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (666ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (914ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 84.12 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 132.45 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6758 unused Assets / (3.8 MB). Loaded Objects now: 7502.
-Memory consumption went from 188.3 MB to 184.5 MB.
-Total: 47.600600 ms (FindLiveObjects: 1.992800 ms CreateObjectMapping: 1.691800 ms MarkObjects: 36.158300 ms  DeleteObjects: 7.754700 ms)
+Unloading 7202 unused Assets / (3.7 MB). Loaded Objects now: 8046.
+Memory consumption went from 182.9 MB to 179.1 MB.
+Total: 34.814200 ms (FindLiveObjects: 3.317600 ms CreateObjectMapping: 7.358800 ms MarkObjects: 15.134400 ms  DeleteObjects: 9.000300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.50 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 20.36 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7503.
-Memory consumption went from 188.1 MB to 184.3 MB.
-Total: 275.062800 ms (FindLiveObjects: 2.584700 ms CreateObjectMapping: 2.685600 ms MarkObjects: 244.501500 ms  DeleteObjects: 25.285500 ms)
+Unloading 7178 unused Assets / (4.1 MB). Loaded Objects now: 8046.
+Memory consumption went from 182.7 MB to 178.6 MB.
+Total: 95.702100 ms (FindLiveObjects: 7.941800 ms CreateObjectMapping: 2.248400 ms MarkObjects: 28.115100 ms  DeleteObjects: 57.394100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 665.548052 seconds.
-  path: Assets/Editor/MyPlayerScriptEditor.cs
-  artifactKey: Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MyPlayerScriptEditor.cs using Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0dcdbaac34d4f091b37976d82cf09af') in 0.9984842 seconds
+  Time since last request: 252.433083 seconds.
+  path: Assets/Scripts/Settings2
+  artifactKey: Guid(23c2c8248afa4ee4cac8b169e6675aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings2 using Guid(23c2c8248afa4ee4cac8b169e6675aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '411ecdf6cfe34e9f27b1f8270bfbc570') in 0.1045162 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
@@ -926,97 +759,255 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.255 seconds
-Refreshing native plugins compatible for Editor in 4.50 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.602 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.623 seconds
-Domain Reload Profiling: 2881ms
-	BeginReloadAssembly (349ms)
+- Finished resetting the current domain, in  2.066 seconds
+Domain Reload Profiling: 3672ms
+	BeginReloadAssembly (431ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (760ms)
-		LoadAssemblies (624ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (993ms)
+		LoadAssemblies (779ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (334ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (294ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1624ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (383ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2067ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1148ms)
+		SetupLoadedEditorAssemblies (1458ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (879ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (1055ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.44 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (3.7 MB). Loaded Objects now: 8047.
+Memory consumption went from 184.8 MB to 181.1 MB.
+Total: 31.206100 ms (FindLiveObjects: 5.769900 ms CreateObjectMapping: 2.459700 ms MarkObjects: 14.904400 ms  DeleteObjects: 8.068400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.74 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (3.5 MB). Loaded Objects now: 8047.
+Memory consumption went from 179.4 MB to 175.9 MB.
+Total: 18.070900 ms (FindLiveObjects: 1.198300 ms CreateObjectMapping: 0.926700 ms MarkObjects: 11.980100 ms  DeleteObjects: 3.962200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 127.593019 seconds.
+  path: Assets/Scripts/Settings2/PausePanel.prefab
+  artifactKey: Guid(cc0c0ee3efee19d4faacd76378dd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings2/PausePanel.prefab using Guid(cc0c0ee3efee19d4faacd76378dd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99ec6764b223223d5b82108de255d7a4') in 0.167061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 424
+
+========================================================================
+Received Import Request.
+  Time since last request: 1446.918167 seconds.
+  path: Assets/Sprites/Panel/Panel 1.png
+  artifactKey: Guid(c6eec4df22281904690131b05e14e4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panel/Panel 1.png using Guid(c6eec4df22281904690131b05e14e4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499953b8008660c3c01071edb82107e1') in 0.1320597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Panel/panel_004.png
+  artifactKey: Guid(c3b55846695cc3b43bf03a4fba23db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panel/panel_004.png using Guid(c3b55846695cc3b43bf03a4fba23db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a8626f8e15cd6b034111b07d1d9fd1') in 0.0565529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1330.171987 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad27f40e6b0828433f02bced9d063c81') in 1.1579628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.916390 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece5c1c8d38cd5301a142f2b913796ec') in 0.1466153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.534 seconds
+Refreshing native plugins compatible for Editor in 6.44 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.029 seconds
+Domain Reload Profiling: 4567ms
+	BeginReloadAssembly (707ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (254ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1614ms)
+		LoadAssemblies (1315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (594ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (522ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (987ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.25 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7208 unused Assets / (4.6 MB). Loaded Objects now: 8071.
+Memory consumption went from 186.9 MB to 182.3 MB.
+Total: 54.600800 ms (FindLiveObjects: 2.016400 ms CreateObjectMapping: 2.004800 ms MarkObjects: 36.376200 ms  DeleteObjects: 14.200700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.602 seconds
+Refreshing native plugins compatible for Editor in 8.66 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.052 seconds
+Domain Reload Profiling: 3658ms
+	BeginReloadAssembly (442ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (993ms)
+		LoadAssemblies (771ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (437ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (379ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (990ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (42ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 175.22 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 13.61 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.8 MB). Loaded Objects now: 7504.
-Memory consumption went from 190.2 MB to 186.4 MB.
-Total: 169.402300 ms (FindLiveObjects: 2.303200 ms CreateObjectMapping: 2.551000 ms MarkObjects: 142.453300 ms  DeleteObjects: 22.092000 ms)
+Unloading 7202 unused Assets / (4.0 MB). Loaded Objects now: 8072.
+Memory consumption went from 188.8 MB to 184.8 MB.
+Total: 69.695600 ms (FindLiveObjects: 2.793300 ms CreateObjectMapping: 4.969000 ms MarkObjects: 16.110300 ms  DeleteObjects: 45.819400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.743858 seconds.
-  path: Assets/Editor/MyPlayerScriptEditor.cs
-  artifactKey: Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MyPlayerScriptEditor.cs using Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '605de73affe554fddecdc156e24c1eb7') in 0.3893576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
 ========================================================================
 Received Prepare
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.86 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 47.89 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7504.
-Memory consumption went from 189.7 MB to 185.9 MB.
-Total: 503.889500 ms (FindLiveObjects: 1.902200 ms CreateObjectMapping: 1.811200 ms MarkObjects: 488.876800 ms  DeleteObjects: 11.297300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 43.370683 seconds.
-  path: Assets/Editor/MyPlayerScriptEditor.cs
-  artifactKey: Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MyPlayerScriptEditor.cs using Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.3154713 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/editor/myplayerscripteditor.cs in SourceAssetDB has modification time of '2024-02-12T14:32:41.5048495Z' while content on disk has modification time of '2024-02-12T14:32:43.8489072Z'
-  ERROR: Build asset version error: assets/editor/myplayerscripteditor.cs in SourceAssetDB has modification time of '2024-02-12T14:32:41.5048495Z' while content on disk has modification time of '2024-02-12T14:32:43.8489072Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 113.60 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (9.4 MB). Loaded Objects now: 7504.
-Memory consumption went from 189.7 MB to 180.2 MB.
-Total: 152.295300 ms (FindLiveObjects: 1.955400 ms CreateObjectMapping: 2.039600 ms MarkObjects: 15.499800 ms  DeleteObjects: 132.798300 ms)
+Unloading 7178 unused Assets / (4.9 MB). Loaded Objects now: 8072.
+Memory consumption went from 188.6 MB to 183.7 MB.
+Total: 90.944000 ms (FindLiveObjects: 5.800200 ms CreateObjectMapping: 3.114300 ms MarkObjects: 18.898000 ms  DeleteObjects: 63.126400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1036,288 +1027,55 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.361 seconds
-Refreshing native plugins compatible for Editor in 4.50 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.228 seconds
+Refreshing native plugins compatible for Editor in 11.86 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.299 seconds
-Domain Reload Profiling: 2664ms
-	BeginReloadAssembly (364ms)
+- Finished resetting the current domain, in  2.847 seconds
+Domain Reload Profiling: 7080ms
+	BeginReloadAssembly (2193ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (857ms)
-		LoadAssemblies (618ms)
+		CreateAndSetChildDomain (417ms)
+	RebuildCommonClasses (172ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (1687ms)
+		LoadAssemblies (2415ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (433ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (376ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (1300ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (859ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (631ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.00 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7505.
-Memory consumption went from 192.1 MB to 188.4 MB.
-Total: 23.689000 ms (FindLiveObjects: 2.084400 ms CreateObjectMapping: 1.834700 ms MarkObjects: 11.467100 ms  DeleteObjects: 8.300000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.60 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7505.
-Memory consumption went from 191.9 MB to 188.2 MB.
-Total: 168.498700 ms (FindLiveObjects: 1.876600 ms CreateObjectMapping: 2.010600 ms MarkObjects: 157.760200 ms  DeleteObjects: 6.849400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.50 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7505.
-Memory consumption went from 191.9 MB to 188.2 MB.
-Total: 107.285800 ms (FindLiveObjects: 1.815800 ms CreateObjectMapping: 1.706900 ms MarkObjects: 94.317300 ms  DeleteObjects: 9.443400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 58.688229 seconds.
-  path: Assets/Editor/MyPlayerScriptEditor.cs
-  artifactKey: Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MyPlayerScriptEditor.cs using Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002f7b8c0cccf0a6d4b5234b022a1d0c') in 0.4595494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.34 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7505.
-Memory consumption went from 191.6 MB to 187.9 MB.
-Total: 113.864600 ms (FindLiveObjects: 2.259700 ms CreateObjectMapping: 1.827100 ms MarkObjects: 102.949500 ms  DeleteObjects: 6.826200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 39.651117 seconds.
-  path: Assets/Editor/MyPlayerScriptEditor.cs
-  artifactKey: Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MyPlayerScriptEditor.cs using Guid(be72725fce52ba645ad7c9b381f2351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b20c934d2192c428dce416d96fa66249') in 0.0955379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 104.29 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.6 MB). Loaded Objects now: 7505.
-Memory consumption went from 191.5 MB to 187.9 MB.
-Total: 27.013200 ms (FindLiveObjects: 2.467000 ms CreateObjectMapping: 3.114300 ms MarkObjects: 12.149800 ms  DeleteObjects: 9.278400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.316 seconds
-Refreshing native plugins compatible for Editor in 4.59 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.367 seconds
-Domain Reload Profiling: 2685ms
-	BeginReloadAssembly (352ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (815ms)
-		LoadAssemblies (607ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (393ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (346ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1368ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (926ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (692ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.91 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.8 MB). Loaded Objects now: 7506.
-Memory consumption went from 194.1 MB to 190.3 MB.
-Total: 57.186800 ms (FindLiveObjects: 1.867700 ms CreateObjectMapping: 1.791600 ms MarkObjects: 46.174600 ms  DeleteObjects: 7.350300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.47 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (9.1 MB). Loaded Objects now: 7506.
-Memory consumption went from 193.9 MB to 184.8 MB.
-Total: 77.961600 ms (FindLiveObjects: 2.045300 ms CreateObjectMapping: 1.880700 ms MarkObjects: 11.249700 ms  DeleteObjects: 62.782700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.230 seconds
-Refreshing native plugins compatible for Editor in 6.40 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.289 seconds
-Domain Reload Profiling: 2518ms
-	BeginReloadAssembly (348ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (750ms)
-		LoadAssemblies (590ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (18ms)
+		AnalyzeDomain (814ms)
+			TypeCache.Refresh (49ms)
 				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (298ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1289ms)
+			BuildScriptInfoCaches (709ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (2849ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (845ms)
+		SetupLoadedEditorAssemblies (1774ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (621ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (1283ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
+		AwakeInstancesAfterBackupRestoration (79ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.83 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 20.56 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7507.
-Memory consumption went from 195.9 MB to 192.2 MB.
-Total: 63.167200 ms (FindLiveObjects: 1.993200 ms CreateObjectMapping: 1.770200 ms MarkObjects: 52.215500 ms  DeleteObjects: 7.185400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.70 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7507.
-Memory consumption went from 195.8 MB to 192.0 MB.
-Total: 80.701400 ms (FindLiveObjects: 1.828200 ms CreateObjectMapping: 1.813100 ms MarkObjects: 66.909700 ms  DeleteObjects: 10.147900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.99 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7507.
-Memory consumption went from 195.7 MB to 192.0 MB.
-Total: 112.987100 ms (FindLiveObjects: 2.064200 ms CreateObjectMapping: 1.970700 ms MarkObjects: 99.264600 ms  DeleteObjects: 9.685200 ms)
+Unloading 7202 unused Assets / (5.4 MB). Loaded Objects now: 8073.
+Memory consumption went from 190.7 MB to 185.3 MB.
+Total: 44.347800 ms (FindLiveObjects: 3.507500 ms CreateObjectMapping: 4.563700 ms MarkObjects: 18.710200 ms  DeleteObjects: 17.562800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1337,473 +1095,55 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.253 seconds
-Refreshing native plugins compatible for Editor in 4.35 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.293 seconds
+Refreshing native plugins compatible for Editor in 38.79 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.343 seconds
-Domain Reload Profiling: 2598ms
-	BeginReloadAssembly (334ms)
+- Finished resetting the current domain, in  4.242 seconds
+Domain Reload Profiling: 9559ms
+	BeginReloadAssembly (1167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (775ms)
-		LoadAssemblies (602ms)
+		CreateAndSetChildDomain (268ms)
+	RebuildCommonClasses (235ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (3733ms)
+		LoadAssemblies (2746ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (351ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (307ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1343ms)
+		AnalyzeDomain (1645ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1531ms)
+			ResolveRequiredComponents (73ms)
+	FinalizeReload (4244ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (929ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (682ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.16 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.8 MB). Loaded Objects now: 7508.
-Memory consumption went from 197.9 MB to 194.1 MB.
-Total: 64.300100 ms (FindLiveObjects: 2.083500 ms CreateObjectMapping: 1.871200 ms MarkObjects: 53.271200 ms  DeleteObjects: 7.071500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.46 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7508.
-Memory consumption went from 197.7 MB to 194.0 MB.
-Total: 196.816500 ms (FindLiveObjects: 2.717000 ms CreateObjectMapping: 172.814400 ms MarkObjects: 12.618500 ms  DeleteObjects: 8.663700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.482 seconds
-Refreshing native plugins compatible for Editor in 4.52 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.412 seconds
-Domain Reload Profiling: 2897ms
-	BeginReloadAssembly (445ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (888ms)
-		LoadAssemblies (831ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (348ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (306ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1413ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (961ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (718ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.54 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7509.
-Memory consumption went from 199.7 MB to 196.0 MB.
-Total: 87.701600 ms (FindLiveObjects: 2.100800 ms CreateObjectMapping: 2.228300 ms MarkObjects: 71.677700 ms  DeleteObjects: 11.691900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.12 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (5.4 MB). Loaded Objects now: 7509.
-Memory consumption went from 199.7 MB to 194.3 MB.
-Total: 60.182400 ms (FindLiveObjects: 1.844700 ms CreateObjectMapping: 1.792600 ms MarkObjects: 11.098200 ms  DeleteObjects: 45.444500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 126.78 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7509.
-Memory consumption went from 199.6 MB to 195.9 MB.
-Total: 22.326500 ms (FindLiveObjects: 1.841100 ms CreateObjectMapping: 1.886400 ms MarkObjects: 10.621000 ms  DeleteObjects: 7.975800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.315 seconds
-Refreshing native plugins compatible for Editor in 4.45 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.865 seconds
-Domain Reload Profiling: 3184ms
-	BeginReloadAssembly (393ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (765ms)
-		LoadAssemblies (643ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (346ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (302ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1865ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1397ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (1117ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.06 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7510.
-Memory consumption went from 201.7 MB to 198.0 MB.
-Total: 86.051600 ms (FindLiveObjects: 1.884800 ms CreateObjectMapping: 1.854100 ms MarkObjects: 74.690100 ms  DeleteObjects: 7.620100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 104.05 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7510.
-Memory consumption went from 201.5 MB to 197.8 MB.
-Total: 27.332500 ms (FindLiveObjects: 5.268600 ms CreateObjectMapping: 1.897100 ms MarkObjects: 13.032900 ms  DeleteObjects: 7.131900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.318 seconds
-Refreshing native plugins compatible for Editor in 4.51 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.600 seconds
-Domain Reload Profiling: 2921ms
-	BeginReloadAssembly (373ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (789ms)
-		LoadAssemblies (620ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (321ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1182ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (948ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.47 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (6.7 MB). Loaded Objects now: 7511.
-Memory consumption went from 203.7 MB to 197.0 MB.
-Total: 37.826600 ms (FindLiveObjects: 1.892800 ms CreateObjectMapping: 1.688000 ms MarkObjects: 10.845400 ms  DeleteObjects: 23.395700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 97.05 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.8 MB). Loaded Objects now: 7511.
-Memory consumption went from 203.5 MB to 199.7 MB.
-Total: 24.614200 ms (FindLiveObjects: 2.091700 ms CreateObjectMapping: 2.014600 ms MarkObjects: 13.432400 ms  DeleteObjects: 7.073200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.718 seconds
-Refreshing native plugins compatible for Editor in 4.37 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.356 seconds
-Domain Reload Profiling: 3040ms
-	BeginReloadAssembly (387ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (1113ms)
-		LoadAssemblies (905ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (384ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (1356ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (937ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (683ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 62.30 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.8 MB). Loaded Objects now: 7512.
-Memory consumption went from 205.6 MB to 201.8 MB.
-Total: 72.261300 ms (FindLiveObjects: 1.856300 ms CreateObjectMapping: 1.776300 ms MarkObjects: 21.995000 ms  DeleteObjects: 46.630500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.23 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7512.
-Memory consumption went from 205.4 MB to 201.7 MB.
-Total: 93.637200 ms (FindLiveObjects: 1.955400 ms CreateObjectMapping: 1.789700 ms MarkObjects: 75.865000 ms  DeleteObjects: 14.024700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.938 seconds
-Refreshing native plugins compatible for Editor in 6.91 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.165 seconds
-Domain Reload Profiling: 4109ms
-	BeginReloadAssembly (487ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (110ms)
-	RebuildCommonClasses (95ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (1250ms)
-		LoadAssemblies (916ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (596ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (527ms)
-			ResolveRequiredComponents (39ms)
-	FinalizeReload (2165ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1415ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (1045ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
+		SetupLoadedEditorAssemblies (3187ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (292ms)
+			ProcessInitializeOnLoadAttributes (2527ms)
+			ProcessInitializeOnLoadMethodAttributes (252ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
+		AwakeInstancesAfterBackupRestoration (69ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.68 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 19.26 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7513.
-Memory consumption went from 207.5 MB to 203.8 MB.
-Total: 73.412800 ms (FindLiveObjects: 2.757000 ms CreateObjectMapping: 1.817500 ms MarkObjects: 61.958400 ms  DeleteObjects: 6.876900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 120.58 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7513.
-Memory consumption went from 207.3 MB to 203.6 MB.
-Total: 21.802900 ms (FindLiveObjects: 1.929300 ms CreateObjectMapping: 1.828200 ms MarkObjects: 11.235500 ms  DeleteObjects: 6.807300 ms)
+Unloading 7202 unused Assets / (5.9 MB). Loaded Objects now: 8074.
+Memory consumption went from 192.7 MB to 186.8 MB.
+Total: 70.218700 ms (FindLiveObjects: 2.094000 ms CreateObjectMapping: 3.664000 ms MarkObjects: 18.855600 ms  DeleteObjects: 45.601100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1823,66 +1163,67 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.304 seconds
-Refreshing native plugins compatible for Editor in 6.43 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.361 seconds
+Refreshing native plugins compatible for Editor in 9.75 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.428 seconds
-Domain Reload Profiling: 2734ms
-	BeginReloadAssembly (366ms)
+- Finished resetting the current domain, in  3.664 seconds
+Domain Reload Profiling: 7041ms
+	BeginReloadAssembly (874ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (787ms)
-		LoadAssemblies (609ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (2243ms)
+		LoadAssemblies (1889ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (318ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (1428ms)
+		AnalyzeDomain (883ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (786ms)
+			ResolveRequiredComponents (48ms)
+	FinalizeReload (3670ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (991ms)
+		SetupLoadedEditorAssemblies (2309ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (741ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (1664ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
+		AwakeInstancesAfterBackupRestoration (171ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.64 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 122.92 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.8 MB). Loaded Objects now: 7514.
-Memory consumption went from 209.5 MB to 205.7 MB.
-Total: 55.769000 ms (FindLiveObjects: 1.868400 ms CreateObjectMapping: 1.810700 ms MarkObjects: 44.690800 ms  DeleteObjects: 7.396300 ms)
+Unloading 7202 unused Assets / (7.2 MB). Loaded Objects now: 8075.
+Memory consumption went from 194.6 MB to 187.4 MB.
+Total: 87.011900 ms (FindLiveObjects: 3.207900 ms CreateObjectMapping: 19.874300 ms MarkObjects: 20.685600 ms  DeleteObjects: 43.241200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 60.95 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 10.19 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6738 unused Assets / (3.7 MB). Loaded Objects now: 7514.
-Memory consumption went from 209.3 MB to 205.5 MB.
-Total: 22.210100 ms (FindLiveObjects: 1.954300 ms CreateObjectMapping: 1.866200 ms MarkObjects: 10.739100 ms  DeleteObjects: 7.648100 ms)
+Unloading 7178 unused Assets / (4.2 MB). Loaded Objects now: 8075.
+Memory consumption went from 194.3 MB to 190.2 MB.
+Total: 100.455500 ms (FindLiveObjects: 2.715500 ms CreateObjectMapping: 2.612000 ms MarkObjects: 80.717000 ms  DeleteObjects: 14.408100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1902,53 +1243,351 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.731 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.160 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.958 seconds
+Domain Reload Profiling: 9125ms
+	BeginReloadAssembly (1102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (207ms)
+	RebuildCommonClasses (293ms)
+	RebuildNativeTypeToScriptingClass (74ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (4562ms)
+		LoadAssemblies (3193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2008ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (1724ms)
+			ResolveRequiredComponents (155ms)
+	FinalizeReload (2959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1860ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (1153ms)
+			ProcessInitializeOnLoadMethodAttributes (440ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (127ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.78 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (3.7 MB). Loaded Objects now: 8076.
+Memory consumption went from 196.4 MB to 192.7 MB.
+Total: 69.529700 ms (FindLiveObjects: 2.863700 ms CreateObjectMapping: 6.860700 ms MarkObjects: 45.409800 ms  DeleteObjects: 14.392000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 200.28 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7178 unused Assets / (5.9 MB). Loaded Objects now: 8076.
+Memory consumption went from 196.2 MB to 190.3 MB.
+Total: 131.745600 ms (FindLiveObjects: 3.380000 ms CreateObjectMapping: 3.332300 ms MarkObjects: 16.221000 ms  DeleteObjects: 108.806700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.204 seconds
+Refreshing native plugins compatible for Editor in 9.96 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.646 seconds
+Domain Reload Profiling: 7853ms
+	BeginReloadAssembly (1581ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (280ms)
+	RebuildCommonClasses (351ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (2019ms)
+		LoadAssemblies (2410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (620ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (542ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (3647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (178ms)
+			SetLoadedEditorAssemblies (34ms)
+			BeforeProcessingInitializeOnLoad (259ms)
+			ProcessInitializeOnLoadAttributes (1728ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.42 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (3.7 MB). Loaded Objects now: 8077.
+Memory consumption went from 198.3 MB to 194.6 MB.
+Total: 109.912400 ms (FindLiveObjects: 3.309700 ms CreateObjectMapping: 1.853500 ms MarkObjects: 93.997300 ms  DeleteObjects: 10.748500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 100.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7178 unused Assets / (3.7 MB). Loaded Objects now: 8077.
+Memory consumption went from 198.2 MB to 194.5 MB.
+Total: 98.729300 ms (FindLiveObjects: 2.165600 ms CreateObjectMapping: 6.013100 ms MarkObjects: 19.551500 ms  DeleteObjects: 70.996000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.955 seconds
 Refreshing native plugins compatible for Editor in 7.05 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.796 seconds
-Domain Reload Profiling: 3530ms
-	BeginReloadAssembly (497ms)
+- Finished resetting the current domain, in  2.201 seconds
+Domain Reload Profiling: 4162ms
+	BeginReloadAssembly (541ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (1045ms)
-		LoadAssemblies (825ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1214ms)
+		LoadAssemblies (945ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (493ms)
-			TypeCache.Refresh (22ms)
+		AnalyzeDomain (547ms)
+			TypeCache.Refresh (24ms)
 				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (428ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (1797ms)
+			BuildScriptInfoCaches (477ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2201ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1247ms)
+		SetupLoadedEditorAssemblies (1528ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (924ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (1078ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
 			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.71 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 70.75 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (3.7 MB). Loaded Objects now: 7515.
-Memory consumption went from 211.3 MB to 207.6 MB.
-Total: 113.787900 ms (FindLiveObjects: 2.593100 ms CreateObjectMapping: 2.550500 ms MarkObjects: 96.941500 ms  DeleteObjects: 11.699400 ms)
+Unloading 7202 unused Assets / (4.8 MB). Loaded Objects now: 8078.
+Memory consumption went from 200.3 MB to 195.4 MB.
+Total: 73.907300 ms (FindLiveObjects: 9.189400 ms CreateObjectMapping: 2.193200 ms MarkObjects: 51.129600 ms  DeleteObjects: 11.392000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.713 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.358 seconds
+Domain Reload Profiling: 4076ms
+	BeginReloadAssembly (480ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1010ms)
+		LoadAssemblies (826ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (460ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (407ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (1061ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (69ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.58 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (3.8 MB). Loaded Objects now: 8079.
+Memory consumption went from 202.1 MB to 198.3 MB.
+Total: 48.091800 ms (FindLiveObjects: 2.922400 ms CreateObjectMapping: 4.510000 ms MarkObjects: 25.374600 ms  DeleteObjects: 15.281600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.414 seconds
+Refreshing native plugins compatible for Editor in 9.91 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.398 seconds
+Domain Reload Profiling: 4815ms
+	BeginReloadAssembly (615ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1563ms)
+		LoadAssemblies (1265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (613ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (548ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1195ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 24.88 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7202 unused Assets / (6.0 MB). Loaded Objects now: 8080.
+Memory consumption went from 204.2 MB to 198.2 MB.
+Total: 103.244800 ms (FindLiveObjects: 8.696100 ms CreateObjectMapping: 34.384700 ms MarkObjects: 23.751000 ms  DeleteObjects: 36.407600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportWorkerClient::OnTransportError - code=10054 error=????????? ???? ????????????? ???????? ???????????? ???????????.

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4883765735095422208}
   - component: {fileID: 7301265747570132908}
   - component: {fileID: 715176858142794720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stamina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 6730388804975737324}
   - component: {fileID: 949395186290940264}
   - component: {fileID: 3094708362322167600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: StaminaBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 1730361428772009872}
   - component: {fileID: 1053268841504406148}
   - component: {fileID: 3676124906176682863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MyPlayerController
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &1053268841504406148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3587105212175916767}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e15c0a0e979619f41b61dc7d92c6c9b1, type: 3}
   m_Name: 
@@ -363,6 +363,14 @@ MonoBehaviour:
   Interact: 323
   throwOut: 324
   DrawRays: 323
+  task:
+  - fieldTypeAnswer: hffhfhhhghghghg
+    type: 0
+    TaskObj: {fileID: 0}
+    _buttonNext: {fileID: 0}
+    _buttonPreviuos: {fileID: 0}
+    Answers_Toggle: {fileID: 0}
+    Answers_InputField: {fileID: 0}
   LayerMask:
     serializedVersion: 2
     m_Bits: 55
@@ -392,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2790660999618357632}
   - component: {fileID: 9106467594193366097}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SprintBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +451,7 @@ GameObject:
   - component: {fileID: 4503927659707609369}
   - component: {fileID: 526942616542796539}
   - component: {fileID: 2551299907878785458}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Reticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +526,7 @@ GameObject:
   - component: {fileID: 2262773095876391315}
   - component: {fileID: 5282949060412899895}
   - component: {fileID: 633421791783009312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PostProcessing_Game
   m_TagString: PostProcessing
   m_Icon: {fileID: 0}
@@ -556,7 +564,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: ed1fc74aa42db074cb53fec1930714d2, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 419b8c9d391ee144ebcec1380c245892, type: 2}
 --- !u!65 &633421791783009312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -587,7 +595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7729852616269605705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,7 +630,7 @@ GameObject:
   - component: {fileID: 3079520454420751452}
   - component: {fileID: 1732081878948475859}
   - component: {fileID: 3979483093771532658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -721,14 +729,15 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 0}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -760,7 +769,7 @@ GameObject:
   - component: {fileID: 5202933566268271037}
   - component: {fileID: 8937633484749677958}
   - component: {fileID: 1421125861562217530}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CrosshairAndStamina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -827,7 +836,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 720}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

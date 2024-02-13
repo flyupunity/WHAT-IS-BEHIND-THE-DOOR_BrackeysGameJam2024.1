@@ -6,10 +6,12 @@ using UnityEngine.InputSystem;
 using UnityEngine.Playables;
 using System;
 
+[RequireComponent(typeof(FirstPersonController))]
 public class MyPlayerScript : MonoBehaviour
 {
     public bool debug;
     public bool programmer;
+    public bool lockCursor;
 
     [Space(10)]
 
@@ -84,8 +86,8 @@ public class MyPlayerScript : MonoBehaviour
 
     void Awake()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        if (lockCursor) LockCursor();
+        else UnlockCursor();
 
         PuddleKey.SetActive(false);
         KeyPianoInput = new GameObject[KeyPianoOutput.Length];
@@ -404,9 +406,18 @@ public class MyPlayerScript : MonoBehaviour
                 Ineventory[indexActiveObject].transform.localScale = new Vector3(1f, 1f, 1f);
             }
         }
-	}
-
-	public void IfDestroy()
+    }
+    public void LockCursor()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    public void UnlockCursor()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+    public void IfDestroy()
 	{
 		int indexActive = 0;
 

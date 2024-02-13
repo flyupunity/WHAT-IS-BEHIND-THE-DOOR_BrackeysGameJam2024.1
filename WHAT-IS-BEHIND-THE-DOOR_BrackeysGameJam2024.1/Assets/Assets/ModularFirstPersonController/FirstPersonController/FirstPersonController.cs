@@ -13,7 +13,7 @@ using UnityEngine.UI;
     using UnityEditor;
     using System.Net;
 #endif
-
+[RequireComponent(typeof(MyPlayerScript))]
 public class FirstPersonController : MonoBehaviour
 {
     private Rigidbody rb;
