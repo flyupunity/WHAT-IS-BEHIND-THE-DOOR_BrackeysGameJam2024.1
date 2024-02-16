@@ -15,7 +15,7 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53933
+51648
 -job-worker-count
 3
 -background-job-worker-count
@@ -58,12 +58,12 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1904] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 3055680817 [EditorId] 3055680817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [1904] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 3055680817 [EditorId] 3055680817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19316] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1326472028 [EditorId] 1326472028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19316] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1326472028 [EditorId] 1326472028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 12.20 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 12.43 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 [Subsystems] Discovering subsystems at path E:/Programms/2023.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'E:/Programms/2023.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -96,45 +96,45 @@ Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEn
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.016684 seconds.
-- Loaded All Assemblies, in  1.373 seconds
+Registered in 0.013952 seconds.
+- Loaded All Assemblies, in  0.943 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1243 ms
+Android Extension - Scanning For ADB Devices 723 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  4.725 seconds
-Domain Reload Profiling: 6097ms
-	BeginReloadAssembly (494ms)
+- Finished resetting the current domain, in  1.931 seconds
+Domain Reload Profiling: 2873ms
+	BeginReloadAssembly (283ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (142ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (164ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (494ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (522ms)
-			TypeCache.Refresh (519ms)
-				TypeCache.ScanAssembly (472ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (370ms)
+				TypeCache.ScanAssembly (340ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (4726ms)
+	FinalizeReload (1932ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4335ms)
+		SetupLoadedEditorAssemblies (1792ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1652ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (2037ms)
-			ProcessInitializeOnLoadMethodAttributes (572ms)
+			InitializePlatformSupportModulesInManaged (964ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -157,204 +157,318 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  7.735 seconds
-Refreshing native plugins compatible for Editor in 16.10 ms, found 8 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.473 seconds
+Refreshing native plugins compatible for Editor in 9.23 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  9.863 seconds
-Domain Reload Profiling: 17598ms
-	BeginReloadAssembly (2486ms)
+- Finished resetting the current domain, in  1.837 seconds
+Domain Reload Profiling: 4297ms
+	BeginReloadAssembly (840ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (177ms)
-	RebuildCommonClasses (381ms)
-	RebuildNativeTypeToScriptingClass (239ms)
-	initialDomainReloadingComplete (356ms)
-	LoadAllAssembliesAndSetupDomain (4270ms)
-		LoadAssemblies (3223ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1434ms)
+		LoadAssemblies (990ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2134ms)
-			TypeCache.Refresh (1744ms)
-				TypeCache.ScanAssembly (1650ms)
-			BuildScriptInfoCaches (278ms)
-			ResolveRequiredComponents (100ms)
-	FinalizeReload (9865ms)
+		AnalyzeDomain (691ms)
+			TypeCache.Refresh (560ms)
+				TypeCache.ScanAssembly (517ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1837ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (7128ms)
+		SetupLoadedEditorAssemblies (1256ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (120ms)
-			SetLoadedEditorAssemblies (43ms)
-			BeforeProcessingInitializeOnLoad (457ms)
-			ProcessInitializeOnLoadAttributes (5773ms)
-			ProcessInitializeOnLoadMethodAttributes (701ms)
-			AfterProcessingInitializeOnLoad (33ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (927ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 14.39 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 78.94 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 230 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6762 unused Assets / (3.9 MB). Loaded Objects now: 7460.
-Memory consumption went from 202.7 MB to 198.7 MB.
-Total: 29.601700 ms (FindLiveObjects: 4.799900 ms CreateObjectMapping: 1.879500 ms MarkObjects: 12.198100 ms  DeleteObjects: 10.721600 ms)
+Unloading 223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7206 unused Assets / (8.3 MB). Loaded Objects now: 7894.
+Memory consumption went from 206.4 MB to 198.0 MB.
+Total: 51.065700 ms (FindLiveObjects: 2.317400 ms CreateObjectMapping: 2.246900 ms MarkObjects: 15.343400 ms  DeleteObjects: 31.155000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32792.531834 seconds.
-  path: Assets/Import/Old_Suitcase.prefab
-  artifactKey: Guid(233cf1a6ebedf2f40ac910779f1a4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Old_Suitcase.prefab using Guid(233cf1a6ebedf2f40ac910779f1a4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b41e88149e0912a519aafacf3593d59') in 5.7779582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+  Time since last request: 10924.792805 seconds.
+  path: Assets/Import/Rooms/Corridor hallway with woode/Materials/Material.011.mat
+  artifactKey: Guid(132681bdf07adc547b445b730999988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Corridor hallway with woode/Materials/Material.011.mat using Guid(132681bdf07adc547b445b730999988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '339f647adc3f5520a1b40843a2513ed2') in 0.7313578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002426 seconds.
-  path: Assets/Import/Flashligth.prefab
-  artifactKey: Guid(3c30ed0e16f46114dafb426907b7df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Flashligth.prefab using Guid(3c30ed0e16f46114dafb426907b7df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc19f48c3ce974ba1fb93a4fa3704a1') in 0.3265715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+  Time since last request: 445.071716 seconds.
+  path: Assets/Import/Rooms/free car parking lot/uploads_files_4562929_parking.fbx
+  artifactKey: Guid(45900d0df3776d94da62a0a687e86351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/uploads_files_4562929_parking.fbx using Guid(45900d0df3776d94da62a0a687e86351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ebf52c2a1b912f1cfd70370529254a') in 1.3482736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 278
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Import/PuddleKey.prefab
-  artifactKey: Guid(6e2d033135bb245429fa18041655d276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/PuddleKey.prefab using Guid(6e2d033135bb245429fa18041655d276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcccf4eaa845efb26e1add19ea1393e0') in 0.2575232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+  Time since last request: 737.360192 seconds.
+  path: Assets/Import/Rooms/free car parking lot/uploads_files_4562929_parking.fbx
+  artifactKey: Guid(45900d0df3776d94da62a0a687e86351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/uploads_files_4562929_parking.fbx using Guid(45900d0df3776d94da62a0a687e86351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '901a0d0cb9a9e29d0fdd7d7b38202c29') in 2.06756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 278
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Import/Closet2 Variant.prefab
-  artifactKey: Guid(f2f5eae2c16178a47a747611a9e8e433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Closet2 Variant.prefab using Guid(f2f5eae2c16178a47a747611a9e8e433) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 9.12 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '525e30e0657c24e5d57f19a0403e05c2') in 0.376429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+  Time since last request: 1112.467729 seconds.
+  path: Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.fbx
+  artifactKey: Guid(06de46a25974c6041b9ddeb0b4cb1355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.fbx using Guid(06de46a25974c6041b9ddeb0b4cb1355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3038a874e86329bf8208dfdec9232f42') in 3.9626257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1919
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002052 seconds.
-  path: Assets/Import/Books2.prefab
-  artifactKey: Guid(8d0cfa11055ce4b40a2251c28dcadb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Books2.prefab using Guid(8d0cfa11055ce4b40a2251c28dcadb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2427027ed374499e0b46a7b8ca3ba4') in 0.1019773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+  Time since last request: 1.183354 seconds.
+  path: Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.fbx
+  artifactKey: Guid(06de46a25974c6041b9ddeb0b4cb1355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.fbx using Guid(06de46a25974c6041b9ddeb0b4cb1355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fdf8d2214f3890a60ae0598d33dc378') in 4.0957377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1919
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Import/RackWithBooks Variant.prefab
-  artifactKey: Guid(13e0ff7f7207c3643aceec07def9eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RackWithBooks Variant.prefab using Guid(13e0ff7f7207c3643aceec07def9eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0783828816fa83495b4a893fcaf8ea71') in 3.5524242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1356
+  Time since last request: 12.893950 seconds.
+  path: Assets/Import/Rooms/Small House/Textures/Door knob normal.png
+  artifactKey: Guid(afa80249d75876b4ca9cf279cacba4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Textures/Door knob normal.png using Guid(afa80249d75876b4ca9cf279cacba4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116cd751aaebd4bc288c5ae4f76f6a28') in 0.0882946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Import/Books1.prefab
-  artifactKey: Guid(abc426ad03c83354e8fc4c3ab3e85a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Books1.prefab using Guid(abc426ad03c83354e8fc4c3ab3e85a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dadef29c26877df96a0a773398e933d') in 0.4515603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
+  Time since last request: 0.000091 seconds.
+  path: Assets/Import/Rooms/Small House/Textures/Roughness 4K.png
+  artifactKey: Guid(bebd6e64bc2be854bb7b4434bdc01ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Textures/Roughness 4K.png using Guid(bebd6e64bc2be854bb7b4434bdc01ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81b22d334e5841e8ef386383a6c6deb5') in 0.0391081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002469 seconds.
-  path: Assets/Import/CobinetKey1.prefab
-  artifactKey: Guid(7eefec9a265a83041a0bd2e408fe41d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/CobinetKey1.prefab using Guid(7eefec9a265a83041a0bd2e408fe41d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '027edf1657fb542609a84f1424a931d0') in 0.3502701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+  Time since last request: 81.699507 seconds.
+  path: Assets/Import/Rooms/Small House/Materials/Door's glass.mat
+  artifactKey: Guid(ca1934689a53a0d47ab65fee94d4fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Materials/Door's glass.mat using Guid(ca1934689a53a0d47ab65fee94d4fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af42bc0c2548b04ad56dc56c9ea7766') in 0.0550229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/Piano.prefab
-  artifactKey: Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Piano.prefab using Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 10.04 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '73f1440142f2b332c3905c7be8f54df9') in 3.8172211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2444
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/Rooms/Small House/Materials/Fence Normal.mat
+  artifactKey: Guid(61512077251ab214a87248ed4ca520fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Materials/Fence Normal.mat using Guid(61512077251ab214a87248ed4ca520fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422c2de3023f3108c6112943f196eca7') in 0.0641921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Import/Rack.prefab
-  artifactKey: Guid(eab39e9d4dc0444419c8bd97b5e77fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rack.prefab using Guid(eab39e9d4dc0444419c8bd97b5e77fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f89a316103f577a69be945500d54d2c4') in 3.1718735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+  Time since last request: 0.000059 seconds.
+  path: Assets/Import/Rooms/Small House/Materials
+  artifactKey: Guid(0056db8877cbb0c4db4711d271c7e680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Materials using Guid(0056db8877cbb0c4db4711d271c7e680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b592db8fb025aaa2e05b1a13f8234ee2') in 0.0008277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.482 seconds
-Refreshing native plugins compatible for Editor in 6.71 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.252 seconds
-Domain Reload Profiling: 4736ms
-	BeginReloadAssembly (679ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (194ms)
-	RebuildCommonClasses (150ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1563ms)
-		LoadAssemblies (1257ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (633ms)
-			TypeCache.Refresh (36ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (532ms)
-			ResolveRequiredComponents (53ms)
-	FinalizeReload (2253ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1370ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (238ms)
-			ProcessInitializeOnLoadAttributes (954ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.16 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6759 unused Assets / (9.5 MB). Loaded Objects now: 7498.
-Memory consumption went from 180.2 MB to 170.7 MB.
-Total: 22.410000 ms (FindLiveObjects: 0.998100 ms CreateObjectMapping: 1.616200 ms MarkObjects: 7.619300 ms  DeleteObjects: 12.173500 ms)
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Import/Rooms/Small House/Materials/House Material.mat
+  artifactKey: Guid(51d1fbbbdd0361a439fae2658bf49f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small House/Materials/House Material.mat using Guid(51d1fbbbdd0361a439fae2658bf49f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf1bd870e6435daa3a5f793385fbabaf') in 0.0557511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.033363 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/Material.005.mat
+  artifactKey: Guid(b5315fe5f5bf7c547bbc878e0e17c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/Material.005.mat using Guid(b5315fe5f5bf7c547bbc878e0e17c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5888afed0d8a3d77c450a07163ec964b') in 0.0265467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/Material.006.mat
+  artifactKey: Guid(d457a0570fcd73248a061579438e2b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/Material.006.mat using Guid(d457a0570fcd73248a061579438e2b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70fcb9fd2118e1d2e2b4c7951f76fb82') in 0.0382557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/uploads_files_954940_metro.blend
+  artifactKey: Guid(7e966d7b9294f22409c7bd44fca317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/uploads_files_954940_metro.blend using Guid(7e966d7b9294f22409c7bd44fca317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218845f6018f88d5aa611b01f6ce8e9b') in 0.2700063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.299452 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/Material.001.mat
+  artifactKey: Guid(5d2a1fbaea991ff45b2bf03c6cfbe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/Material.001.mat using Guid(5d2a1fbaea991ff45b2bf03c6cfbe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4c759d775778488096c0b96debf0917') in 0.0345412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/Material.002.mat
+  artifactKey: Guid(77e4fc156b785d34890d2d3e367f7570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/Material.002.mat using Guid(77e4fc156b785d34890d2d3e367f7570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910a300b10f324afc7c9d84a170fa5a8') in 0.0324681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.093739 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/ab four.png
+  artifactKey: Guid(bf11996bee96dca449380f892a2bf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/ab four.png using Guid(bf11996bee96dca449380f892a2bf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e8df8a9fbf78410dc3b44904b7aa9d7') in 0.028502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_Displacement.jpg
+  artifactKey: Guid(0255f9f1b0448794db45aeddf4dd0521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_Displacement.jpg using Guid(0255f9f1b0448794db45aeddf4dd0521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0724bd1e9d40ad5be1a0df55d87a643c') in 0.038184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/C.png
+  artifactKey: Guid(e57d256bbf108d245b211437435ee2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/C.png using Guid(e57d256bbf108d245b211437435ee2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d578c93b4fe0c449802ee84274074e6') in 0.029625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/b.png
+  artifactKey: Guid(48eb4e6c1dd53124ead7e865ff6b6d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/b.png using Guid(48eb4e6c1dd53124ead7e865ff6b6d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd849a7b1afdeb08371e9172cbf22494') in 0.0359367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_Metallic.jpg
+  artifactKey: Guid(88ea828069a813345be6069359df19c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_Metallic.jpg using Guid(88ea828069a813345be6069359df19c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c216247e9db7061abcbcedc5931bb2a9') in 0.0353353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_BaseColor.jpg
+  artifactKey: Guid(2cf678917ed7af142bc18f2d00f7ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/GWC Zinc Hammered Finish_BaseColor.jpg using Guid(2cf678917ed7af142bc18f2d00f7ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3644c06681d0e765d157a9aa6c25db06') in 0.0329842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016530 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/metal_metalducts_n.vtf.png
+  artifactKey: Guid(6f43c683cd7ba164b8249e2ccbf9a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/metal_metalducts_n.vtf.png using Guid(6f43c683cd7ba164b8249e2ccbf9a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c0a391884eca224fa62f705cf837ff') in 0.0306661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/Rooms/free car parking lot/textures/models_props_de_vertigo_hvac_controlunit.png
+  artifactKey: Guid(96f654b0f797b384cbb0219a383b2ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/free car parking lot/textures/models_props_de_vertigo_hvac_controlunit.png using Guid(96f654b0f797b384cbb0219a383b2ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda7bf45e769ec444d656f81550e37d1') in 0.0449608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.074016 seconds.
+  path: Assets/Import/Rooms/Small Spooky Rusted Hallway/Spooky Hallway.obj
+  artifactKey: Guid(af4759cd94c0eb34ea91a3f03ea5e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Small Spooky Rusted Hallway/Spooky Hallway.obj using Guid(af4759cd94c0eb34ea91a3f03ea5e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a255ecf221f0a15075ccff08d5acc1b') in 0.0805673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 606.880675 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/normal.png
+  artifactKey: Guid(d4346d3e827916b4e93072f8e72aabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/normal.png using Guid(d4346d3e827916b4e93072f8e72aabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1556b2af79be107a3b37de9ed004a10') in 0.2388888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.401451 seconds.
+  path: Assets/Import/Rooms/Metro_Dark subway 3D/uploads_files_954940_metro.blend
+  artifactKey: Guid(7e966d7b9294f22409c7bd44fca317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Rooms/Metro_Dark subway 3D/uploads_files_954940_metro.blend using Guid(7e966d7b9294f22409c7bd44fca317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b16d2ac6f3edb79517b57b1432fb88b') in 0.2034165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.901629 seconds.
+  path: Assets/Materials/Door_Metal.mat
+  artifactKey: Guid(4f6aafeeee2363640a1320cb7effea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Door_Metal.mat using Guid(4f6aafeeee2363640a1320cb7effea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7252dd5b9bf7544465f85f6bf0b5ce') in 0.3233795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107834 seconds.
+  path: Assets/Materials/Puddle.mat
+  artifactKey: Guid(e7789352cfbfbc445b186492b8bf86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Puddle.mat using Guid(e7789352cfbfbc445b186492b8bf86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c437f06eb6e462a144a02fb1134c39f7') in 0.2124312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.149474 seconds.
+  path: Assets/Materials/Screw.mat
+  artifactKey: Guid(d9a88054249fd9c46a33cb4d7137229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Screw.mat using Guid(d9a88054249fd9c46a33cb4d7137229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b378e42342a8d13968aa8e04c2fd9ca1') in 0.2116775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Ventilation_grd.mat
+  artifactKey: Guid(172688a2744d64d4092d64912a8fe355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ventilation_grd.mat using Guid(172688a2744d64d4092d64912a8fe355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bccd1fe49946b50fc328c8e0085be8d') in 0.0345687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Materials/Toolbox.mat
+  artifactKey: Guid(4a6d882afb146f4409bc366a2cf7132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Toolbox.mat using Guid(4a6d882afb146f4409bc366a2cf7132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61de5e9616c7e18dd34682ac8bfa0a94') in 0.0694868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.481402 seconds.
+  path: Assets/Materials/Skyboxes/Sky1.mat
+  artifactKey: Guid(d47687aa0060d404aa657b005356377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/Sky1.mat using Guid(d47687aa0060d404aa657b005356377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15bd80a9550a4e548e0c6c19587cbd2f') in 0.0329232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
