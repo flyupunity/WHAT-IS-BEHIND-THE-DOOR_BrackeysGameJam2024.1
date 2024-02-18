@@ -3180,8 +3180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6fda8d05c98cf4a4c8caa65906010d43, type: 2}
-  resolutionDropdown: {fileID: 3454775214974423413}
-  qualityDropdown: {fileID: 3454775215043121896}
+  resolutionDropdown: {fileID: 170875033785149223}
+  qualityDropdown: {fileID: 8671426719653429461}
   IsFullscreen: 0
   ResolutionIndex: 0
   QualityIndex: 0

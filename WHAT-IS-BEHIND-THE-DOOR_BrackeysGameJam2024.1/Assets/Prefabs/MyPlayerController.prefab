@@ -333,6 +333,7 @@ GameObject:
   - component: {fileID: 1730361428772009872}
   - component: {fileID: 1053268841504406148}
   - component: {fileID: 3676124906176682863}
+  - component: {fileID: 627929549833633555}
   m_Layer: 3
   m_Name: MyPlayerController
   m_TagString: Player
@@ -558,6 +559,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   hoverTMPro: {fileID: 3728243870808078177}
+--- !u!114 &627929549833633555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587105212175916767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f94193cff4e2574a97fce57292cf846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3734038892517304213
 GameObject:
   m_ObjectHideFlags: 0

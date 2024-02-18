@@ -25,11 +25,17 @@ public class Pause : MonoBehaviour
     }
     public void PauseScene()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().cameraCanMove = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().playerCanMove = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<MyPlayerScript>().UnlockCursor();
         pausePanel.SetActive(true);
         Time.timeScale = 0f;
     }
     public void ReproduseScene()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().cameraCanMove = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().playerCanMove = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<MyPlayerScript>().LockCursor();
         pausePanel.SetActive(false);
         settingsPanel.SetActive(false);
         Time.timeScale = 1f;

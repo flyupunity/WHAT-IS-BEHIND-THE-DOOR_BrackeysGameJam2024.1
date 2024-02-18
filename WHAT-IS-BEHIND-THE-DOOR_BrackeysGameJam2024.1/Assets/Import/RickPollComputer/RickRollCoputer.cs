@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class RickRollCoputer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject screamer;
+    [SerializeField] private GameObject rickRoll;
+    public void RickRollOn()
     {
-        
+        rickRoll.SetActive(true);
+        StartCoroutine(ScrimerCorutine());
     }
-
-    // Update is called once per frame
-    void Update()
+    public IEnumerator ScrimerCorutine()
     {
-        
+        yield return new WaitForSecondsRealtime(5);
+        rickRoll.SetActive(false);
+        screamer.SetActive(true);
+        StartCoroutine(screamer.GetComponent<Screamer>().ScrimerCorutine());
+        Destroy(this);
     }
 }

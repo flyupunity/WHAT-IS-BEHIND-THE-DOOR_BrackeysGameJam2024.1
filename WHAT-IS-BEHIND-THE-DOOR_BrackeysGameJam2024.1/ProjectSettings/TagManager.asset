@@ -5,12 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - PostProcessing
-  - LoadingScreen
-  - Text_English
+  - Interacting
+  - Manager
   - Interact
   - Toolbox
   - Puddle
-  - Interacting
+  - LoadingScreen
+  - Text_English
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - UI
   - Ground
   - Interacting
-  - 
-  - 
+  - Trigger
+  - 2SecondScene
   - 
   - 
   - 

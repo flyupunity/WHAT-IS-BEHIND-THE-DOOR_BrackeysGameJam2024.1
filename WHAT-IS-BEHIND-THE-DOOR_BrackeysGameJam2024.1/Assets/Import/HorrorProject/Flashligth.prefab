@@ -44,8 +44,8 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 122.65
-  m_Range: 21.7
+  m_Intensity: 15.65
+  m_Range: 92.6
   m_SpotAngle: 62.478287
   m_InnerSpotAngle: 21.00939
   m_CookieSize: 10
@@ -87,7 +87,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 6570
+  m_ColorTemperature: 6502.6
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -258,7 +258,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8527952656096202616}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 6892fa7e165006049bf5ae7d5a4317b3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

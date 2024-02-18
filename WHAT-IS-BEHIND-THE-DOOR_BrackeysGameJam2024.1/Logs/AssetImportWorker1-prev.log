@@ -15,7 +15,7 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49838
+52951
 -job-worker-count
 3
 -background-job-worker-count
@@ -58,12 +58,12 @@ E:/Unity_Projects/Repository-BrackeysGameJam2024.1/WHAT-IS-BEHIND-THE-DOOR_Brack
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6524] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1229439941 [EditorId] 1229439941 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [6524] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1229439941 [EditorId] 1229439941 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10592] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 3095832491 [EditorId] 3095832491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10592] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 3095832491 [EditorId] 3095832491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0KS969) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 14.88 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 12.56 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 [Subsystems] Discovering subsystems at path E:/Programms/2023.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -80,7 +80,7 @@ Initialize mono
 Mono path[0] = 'E:/Programms/2023.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programms/2023.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -97,45 +97,45 @@ Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEn
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Programms/2023.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.007920 seconds.
-- Loaded All Assemblies, in  0.861 seconds
+Registered in 0.008686 seconds.
+- Loaded All Assemblies, in  0.789 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 507 ms
+Android Extension - Scanning For ADB Devices 475 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  1.384 seconds
-Domain Reload Profiling: 2245ms
-	BeginReloadAssembly (287ms)
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (258ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (352ms)
-		LoadAssemblies (286ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (344ms)
-			TypeCache.Refresh (342ms)
-				TypeCache.ScanAssembly (316ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (310ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1386ms)
+	FinalizeReload (1289ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1248ms)
+		SetupLoadedEditorAssemblies (1165ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (766ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (687ms)
+			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (15ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -159,806 +159,54 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.379 seconds
-Refreshing native plugins compatible for Editor in 8.63 ms, found 8 plugins.
+- Loaded All Assemblies, in  2.048 seconds
+Refreshing native plugins compatible for Editor in 9.10 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.652 seconds
-Domain Reload Profiling: 4017ms
-	BeginReloadAssembly (932ms)
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 3753ms
+	BeginReloadAssembly (598ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (1233ms)
-		LoadAssemblies (971ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1246ms)
+		LoadAssemblies (886ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (537ms)
-			TypeCache.Refresh (423ms)
-				TypeCache.ScanAssembly (378ms)
-			BuildScriptInfoCaches (84ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1653ms)
+		AnalyzeDomain (558ms)
+			TypeCache.Refresh (434ms)
+				TypeCache.ScanAssembly (394ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1720ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1147ms)
+		SetupLoadedEditorAssemblies (1158ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (170ms)
-			ProcessInitializeOnLoadAttributes (818ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (826ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 10.03 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 15.06 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 223 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7193 unused Assets / (6.3 MB). Loaded Objects now: 7903.
-Memory consumption went from 206.3 MB to 200.1 MB.
-Total: 16.998000 ms (FindLiveObjects: 1.701900 ms CreateObjectMapping: 1.830600 ms MarkObjects: 7.830800 ms  DeleteObjects: 5.632700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 878.409436 seconds.
-  path: Assets/Import/Rooms/Small House/SmallHouse.prefab
-  artifactKey: Guid(0941e8a05be366c47a40e3225cad607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Small House/SmallHouse.prefab using Guid(0941e8a05be366c47a40e3225cad607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765b39898b7104fc7c5972f76c270a4f') in 0.9053007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3475
-
-========================================================================
-Received Import Request.
-  Time since last request: 2221.143510 seconds.
-  path: Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.blend
-  artifactKey: Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.blend using Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2031562cd782d16a3371793a5eb732c0') in 3.1089551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1967
-
-========================================================================
-Received Import Request.
-  Time since last request: 799.450593 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e15b7a94070d597db3ae6e692d39855e') in 0.1422806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 1365.466989 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3707b069abed916a1cff79ab31f4e426') in 0.0898442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.106924 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0965f3751fc511a7b6ce46c5505ace0') in 0.0965473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
-
-========================================================================
-Received Import Request.
-  Time since last request: 1514.066691 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89ba12b2dbd7bba01c1832ca582d6931') in 0.0856369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
-
-========================================================================
-Received Import Request.
-  Time since last request: 1486.554884 seconds.
-  path: Assets/Import/Rooms/Corridor hallway with woode/Picture.blend
-  artifactKey: Guid(ef52476e18589244ebd05d97a50f330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Corridor hallway with woode/Picture.blend using Guid(ef52476e18589244ebd05d97a50f330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e4e502fa1f45ef0f30ab9fad190a246') in 0.1901827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Import/Rooms/Corridor hallway with woode/Picture 2.blend
-  artifactKey: Guid(b70bad8f45d6d344bafb8f10fb7d25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Corridor hallway with woode/Picture 2.blend using Guid(b70bad8f45d6d344bafb8f10fb7d25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9e2674134348817503c6da679741b15') in 0.1856623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Import/Rooms/Corridor hallway with woode/Picture 1.blend
-  artifactKey: Guid(bedbebc8b07084e478892073313c9e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Corridor hallway with woode/Picture 1.blend using Guid(bedbebc8b07084e478892073313c9e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6d54fddbe7d84daac0c33eafbcda85b') in 0.1580769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Import/Rooms/Corridor hallway with woode/Picture 4.blend
-  artifactKey: Guid(eb7824f3d16b1a241b70a647256e18dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Corridor hallway with woode/Picture 4.blend using Guid(eb7824f3d16b1a241b70a647256e18dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51c3cdd80164d5eb8007cddd32c792b') in 0.1000828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Import/Rooms/Corridor hallway with woode/Picture 3.blend
-  artifactKey: Guid(68bb670093b54fa41bda56a94470d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Corridor hallway with woode/Picture 3.blend using Guid(68bb670093b54fa41bda56a94470d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '327af0e78b66348c631e7ed4f367dd60') in 0.1540612 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.359356 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.fbx
-  artifactKey: Guid(7d82c0b4112669d46aea04535a3a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.fbx using Guid(7d82c0b4112669d46aea04535a3a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c0b457517fad0c7502223f697d61c3a') in 16.6598446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3143
-
-========================================================================
-Received Import Request.
-  Time since last request: 1066.582748 seconds.
-  path: Assets/Import/Market/Materials/franki-chamaki-wkvKZR4e2OI-unsplash.mat
-  artifactKey: Guid(07f123cc880ad32478a0338ef1c9d31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/franki-chamaki-wkvKZR4e2OI-unsplash.mat using Guid(07f123cc880ad32478a0338ef1c9d31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7f5904c715344030d9d7f649dc0d2a2') in 0.0474397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Import/Market/Materials/Material.017.mat
-  artifactKey: Guid(929ee47297b28d943bbba3d22b746e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.017.mat using Guid(929ee47297b28d943bbba3d22b746e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '897558a69906f7378325c408b08194b5') in 0.0299965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Import/Market/Materials/Material.020.mat
-  artifactKey: Guid(042fc0fcdb41c704283957382bae91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.020.mat using Guid(042fc0fcdb41c704283957382bae91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90c998af4b777fdb8a5e3be91e06e8b4') in 0.0293071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Import/Market/Materials/Material.001.mat
-  artifactKey: Guid(828b58e2999212d4a8c2d2ad0495b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.001.mat using Guid(828b58e2999212d4a8c2d2ad0495b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a53d4cbc5735fd37c0bf430e244e41f') in 0.028903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Import/Market/Materials/Material.007.mat
-  artifactKey: Guid(62e3f4688df71e6449a0e1159c2e9972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.007.mat using Guid(62e3f4688df71e6449a0e1159c2e9972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30753659a273180d31af6a154f904eb7') in 0.0446422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Import/Market/Materials/Material.013.mat
-  artifactKey: Guid(42d0dfbc683b8ff4bb59ea3e3412924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.013.mat using Guid(42d0dfbc683b8ff4bb59ea3e3412924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f16dcb1a91bf3de8550699dc374ae3a') in 0.0330159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Import/Market/Materials/Material.mat
-  artifactKey: Guid(c806a303431739645ab23125e61f840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.mat using Guid(c806a303431739645ab23125e61f840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1fd75678e389b9111908e1a8e2a0050') in 0.0457521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Import/Market/Materials/Material.009.mat
-  artifactKey: Guid(6635fc4d9ce49b24b8171f79a891ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.009.mat using Guid(6635fc4d9ce49b24b8171f79a891ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c76d9f81ec6891d90e4bf723cd8e21ec') in 0.039056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Import/Market/Materials/Material.022.mat
-  artifactKey: Guid(ed1705ef7e84be849a64b85e6b70e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.022.mat using Guid(ed1705ef7e84be849a64b85e6b70e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8e0a5451f9bd3cfd118e4a8a38efd79') in 0.0359975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Import/Market/Materials/Material.006.mat
-  artifactKey: Guid(2f2c0e85725eb754583739c0e74cca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.006.mat using Guid(2f2c0e85725eb754583739c0e74cca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86307ff83613f1c4eccc29d1f0598085') in 0.031698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Import/Market/Materials/Material.005.mat
-  artifactKey: Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.005.mat using Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a627d38594b064700c5561ee4cb9ab') in 0.0278374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Import/Market/Materials/Material.012.mat
-  artifactKey: Guid(5b192fd3e423d1c41b0c5d57dc0bcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.012.mat using Guid(5b192fd3e423d1c41b0c5d57dc0bcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a06cd0b97f26f795551a586a7f832ffc') in 0.0268232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Import/Market/Materials/Material.015.mat
-  artifactKey: Guid(4c9e126f1733d984f85de5836c0405bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.015.mat using Guid(4c9e126f1733d984f85de5836c0405bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9f5e92932241889a03368010375c30c') in 0.0325992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Import/Market/Materials/Material.018.mat
-  artifactKey: Guid(821b7bfa0fb3bd24ca81004f9070a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.018.mat using Guid(821b7bfa0fb3bd24ca81004f9070a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffec52a7327ac9c3bf4b3b11be5267da') in 0.0394351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.310667 seconds.
-  path: Assets/Import/Market/Materials/Material.025.mat
-  artifactKey: Guid(15d91d581e51acf4c96e330fc4552fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.025.mat using Guid(15d91d581e51acf4c96e330fc4552fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c074b866a2a5c711478b14436740e8e8') in 0.0236128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Import/Market/Materials/Material.027.mat
-  artifactKey: Guid(79a2afffefb24cd4888cc04440cca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.027.mat using Guid(79a2afffefb24cd4888cc04440cca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71f19d7d16979ebae8b93dbc2fc3f11a') in 0.0377445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Import/Market/Materials/Material.028.mat
-  artifactKey: Guid(88f4d5d087db6084fb33e9b4c040949f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.028.mat using Guid(88f4d5d087db6084fb33e9b4c040949f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c24686d9c2716326cd1085d7a07643') in 0.0270232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.270697 seconds.
-  path: Assets/Import/Market/Materials/Material.030.mat
-  artifactKey: Guid(b00a18334c375d04593de3152c6cbb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.030.mat using Guid(b00a18334c375d04593de3152c6cbb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30a93c96c73634fd06fbd9d0bfa49655') in 0.0243072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Import/Market/Materials/Material.033.mat
-  artifactKey: Guid(2a6e281896d64e74c95c6c6f54af59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.033.mat using Guid(2a6e281896d64e74c95c6c6f54af59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89032c7b94ec790933c6be0ed2d33cd') in 0.0404801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/Material.035.mat
-  artifactKey: Guid(c29408f700aaf544da84f85fe76731e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.035.mat using Guid(c29408f700aaf544da84f85fe76731e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe4e776ef14408a2eb8f2290bcc6165') in 0.0337913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Import/Market/Materials/Material.036.mat
-  artifactKey: Guid(7e72d74f7e942664f9bfbcce56056030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.036.mat using Guid(7e72d74f7e942664f9bfbcce56056030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0373d47ba13e20d1e31d1ae3dd05f60c') in 0.0289044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/Material.032.mat
-  artifactKey: Guid(a64eaddeb3fac944c98d412e2001c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.032.mat using Guid(a64eaddeb3fac944c98d412e2001c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2b4619819835c994b8fc89d2e445456') in 0.0273435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119919 seconds.
-  path: Assets/Import/Market/Materials/Tiles082_2K_Color.mat
-  artifactKey: Guid(9539a95023885e14e91d9c866c0ef4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Tiles082_2K_Color.mat using Guid(9539a95023885e14e91d9c866c0ef4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87f8714f3c49f445c9f7006b9a37ef6f') in 0.023847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.001.mat
-  artifactKey: Guid(2fefe332093e1af4bb9a7909f2c711aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.001.mat using Guid(2fefe332093e1af4bb9a7909f2c711aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa19c3464cbc58f940655d66db306cdb') in 0.038799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.006.mat
-  artifactKey: Guid(38625ec8ae5691c449b1e330479cdad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.006.mat using Guid(38625ec8ae5691c449b1e330479cdad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb708919ed86e81c8628945af3642fe') in 0.0256651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.005.mat
-  artifactKey: Guid(746bdcae2b6789c499b1d6621b5f594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.005.mat using Guid(746bdcae2b6789c499b1d6621b5f594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0477c988ca167c08e0877871150794b6') in 0.0434876 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Import/Market/Materials/tiles_0024_color_2k.mat
-  artifactKey: Guid(2b3280c1b44722c4d83cbb08f48d576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/tiles_0024_color_2k.mat using Guid(2b3280c1b44722c4d83cbb08f48d576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c5b5d2794e99e94406d19e44a7b6a1') in 0.0233848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.213666 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.008.mat
-  artifactKey: Guid(036b52548266e5a4c8500a73abb8e95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.008.mat using Guid(036b52548266e5a4c8500a73abb8e95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe16336fdd5ff3d04dde39a6b226b00') in 0.0268107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.011.mat
-  artifactKey: Guid(d224f5cb0d28ed64d9913bf2a4fddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.011.mat using Guid(d224f5cb0d28ed64d9913bf2a4fddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8717fd778dc624deb717206da3bcf5d7') in 0.0298775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.015.mat
-  artifactKey: Guid(d88d8b415b01ab44c841c604ffa68aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.015.mat using Guid(d88d8b415b01ab44c841c604ffa68aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a73ebe6b180002f84bce21b96aa0320d') in 0.0337428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.021.mat
-  artifactKey: Guid(28ae80e1ae6dfc94aa5c72fb62ff175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.021.mat using Guid(28ae80e1ae6dfc94aa5c72fb62ff175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f094828a82f8d927007acb5da34708b3') in 0.0317066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.010.mat
-  artifactKey: Guid(4ef7e5c32c25bad4296c759bb920cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.010.mat using Guid(4ef7e5c32c25bad4296c759bb920cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c48288f1ddb955b8833a7b93df7bf9') in 0.0260547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.013.mat
-  artifactKey: Guid(567ae0d7542c79c458ce484c3799ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.013.mat using Guid(567ae0d7542c79c458ce484c3799ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46f754c77dda65875a68a2dd738fe749') in 0.0284605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.017.mat
-  artifactKey: Guid(96241b0c40dc52c4d8655508eee32180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.017.mat using Guid(96241b0c40dc52c4d8655508eee32180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499c00bd0eba77313b2327d85375ebaa') in 0.0256856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.012.mat
-  artifactKey: Guid(d797d07625b44ef4aac62c0314c5a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.012.mat using Guid(d797d07625b44ef4aac62c0314c5a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9304b3fb6fd5c7b0557fd5d4c3e9e196') in 0.0381964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.023.mat
-  artifactKey: Guid(4a1906f99741a5949ba4cc8dc2418d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.023.mat using Guid(4a1906f99741a5949ba4cc8dc2418d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd32aa4756368c391c36efd9f78e8fc7a') in 0.0360278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.028.mat
-  artifactKey: Guid(f354d387968e70c47937c5edd5864ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.028.mat using Guid(f354d387968e70c47937c5edd5864ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65236ca6a2cca758554282f760418146') in 0.0459414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.025.mat
-  artifactKey: Guid(9ebcf490641ea9a43b7ba80a303189e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.025.mat using Guid(9ebcf490641ea9a43b7ba80a303189e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e223e979454d7adc1694504e904cd02') in 0.0257495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.027.mat
-  artifactKey: Guid(56af056422226c147bec6775e85b33b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.027.mat using Guid(56af056422226c147bec6775e85b33b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4532a9a4f34b15dc4a1d6772c5e71b9') in 0.0263095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.031.mat
-  artifactKey: Guid(de1a9e847cef63543abfd60e97bc21be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.031.mat using Guid(de1a9e847cef63543abfd60e97bc21be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e792681c7668b92f38d527e82aefac') in 0.0350765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022403 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.033.mat
-  artifactKey: Guid(09d7ce385f6c03345bd38ac455af0a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.033.mat using Guid(09d7ce385f6c03345bd38ac455af0a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93252ba1ff390ba24557d1f6cc6fe9c2') in 0.0238534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.036.mat
-  artifactKey: Guid(7ededd3e23a4890498c375091637c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.036.mat using Guid(7ededd3e23a4890498c375091637c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad23492fdaa4da6afe1a8e1190a98b03') in 0.0321351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.037.mat
-  artifactKey: Guid(38e63b5dd2d43744387f0538c8a761ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/uploads_files_4498769_convience_store-Material.037.mat using Guid(38e63b5dd2d43744387f0538c8a761ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6045d45f1db4f3327d391f879ea2a0a3') in 0.0351568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 2343.995785 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.fbx
-  artifactKey: Guid(7d82c0b4112669d46aea04535a3a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.fbx using Guid(7d82c0b4112669d46aea04535a3a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9feeb42d789eb47b174011cd93ff2645') in 12.5113009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3149
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.887049 seconds.
-  path: Assets/Import/Market/Materials/Material.001.mat
-  artifactKey: Guid(828b58e2999212d4a8c2d2ad0495b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.001.mat using Guid(828b58e2999212d4a8c2d2ad0495b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64ede770f713fc9a910637784efddcee') in 0.0818384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Import/Market/Materials/Material.017.mat
-  artifactKey: Guid(929ee47297b28d943bbba3d22b746e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.017.mat using Guid(929ee47297b28d943bbba3d22b746e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d6e952e4f1f74c9d2a8b256346bd957') in 0.0287735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Import/Market/Materials/Material.020.mat
-  artifactKey: Guid(042fc0fcdb41c704283957382bae91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.020.mat using Guid(042fc0fcdb41c704283957382bae91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519d5fac76bc97ffb39d8940f0c4ba63') in 0.0258317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Import/Market/Materials/Material.007.mat
-  artifactKey: Guid(62e3f4688df71e6449a0e1159c2e9972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.007.mat using Guid(62e3f4688df71e6449a0e1159c2e9972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f91f2d3453e2d5e14a08a27a30047ea7') in 0.0326773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Import/Market/Materials/Material.013.mat
-  artifactKey: Guid(42d0dfbc683b8ff4bb59ea3e3412924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.013.mat using Guid(42d0dfbc683b8ff4bb59ea3e3412924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '493d24ced5b2b046b1aeecd24dcb021b') in 0.0274369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Import/Market/Materials/Material.023.mat
-  artifactKey: Guid(65fa558a841251244a5ce911873b1b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.023.mat using Guid(65fa558a841251244a5ce911873b1b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a06e98c04b8abcecccec7074b502d754') in 0.0287871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Import/Market/Materials/Material.025.mat
-  artifactKey: Guid(15d91d581e51acf4c96e330fc4552fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.025.mat using Guid(15d91d581e51acf4c96e330fc4552fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1465abf176361ef47dd40295ebd9b4') in 0.0318753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Import/Market/Materials/Material.009.mat
-  artifactKey: Guid(6635fc4d9ce49b24b8171f79a891ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.009.mat using Guid(6635fc4d9ce49b24b8171f79a891ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c96ae353ae5feb5a815ce0b6729826b') in 0.0489605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Import/Market/Materials/Material.008.mat
-  artifactKey: Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.008.mat using Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d2e8c5e8e7e707af4c51661bbed78d') in 0.0301554 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Import/Market/Materials/Material.011.mat
-  artifactKey: Guid(888a1978dd77a4c4a89cba3636a4b11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.011.mat using Guid(888a1978dd77a4c4a89cba3636a4b11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5feb7b2705f151061b4fc5ca4bf939') in 0.0352273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Import/Market/Materials/Material.005.mat
-  artifactKey: Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.005.mat using Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34fab653ec479688367edc6df4b57546') in 0.0404383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Import/Market/Materials/Material.014.mat
-  artifactKey: Guid(9a0c6df4b69495149ab09a80dbb2ed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.014.mat using Guid(9a0c6df4b69495149ab09a80dbb2ed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba5fefab02fbcfaeefdac3d813536156') in 0.0257846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Import/Market/Materials/Material.015.mat
-  artifactKey: Guid(4c9e126f1733d984f85de5836c0405bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.015.mat using Guid(4c9e126f1733d984f85de5836c0405bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5847fa35ea4ed7089677af19c7feef3f') in 0.0423791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.618762 seconds.
-  path: Assets/Import/Market/Materials/Material.027.mat
-  artifactKey: Guid(79a2afffefb24cd4888cc04440cca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.027.mat using Guid(79a2afffefb24cd4888cc04440cca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99ebad319e24a4a6030fa2dea31ed681') in 0.0299743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Import/Market/Materials/Material.029.mat
-  artifactKey: Guid(60b4b42723f633749a7732af17462e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.029.mat using Guid(60b4b42723f633749a7732af17462e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb8153e53823ac157afbccb6b0e161c6') in 0.0611302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Import/Market/Materials/Material.033.mat
-  artifactKey: Guid(2a6e281896d64e74c95c6c6f54af59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.033.mat using Guid(2a6e281896d64e74c95c6c6f54af59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d54c88c200d9d880bd2a7970c2fa474') in 0.0299328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Import/Market/Materials/Material.034.mat
-  artifactKey: Guid(739f95b8fdbc5dd4b86dc4215da5bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.034.mat using Guid(739f95b8fdbc5dd4b86dc4215da5bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46d98bb088cf96767a5f6adb572e6e0') in 0.042986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Import/Market/Materials/Material.030.mat
-  artifactKey: Guid(b00a18334c375d04593de3152c6cbb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.030.mat using Guid(b00a18334c375d04593de3152c6cbb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '830789b319dbf49caf0887ae442ea8b6') in 0.0414171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074298 seconds.
-  path: Assets/Import/Market/Materials/Material.037.mat
-  artifactKey: Guid(8523bdcbf6e83704095b2616233561e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.037.mat using Guid(8523bdcbf6e83704095b2616233561e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '573723a549bf5c885d6f311230bfa248') in 0.0343585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 187.271544 seconds.
-  path: Assets/Import/Market/Materials/Material.002.mat
-  artifactKey: Guid(056fd8bc9c8bbd448a49d83fc915ae33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.002.mat using Guid(056fd8bc9c8bbd448a49d83fc915ae33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb1b77757fa06d4588d15193580feb69') in 0.0544732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Import/Market/Materials/Material.008.mat
-  artifactKey: Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.008.mat using Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4736434818598704fea49496105b33db') in 0.0420324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/Market/Materials/Material.005.mat
-  artifactKey: Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.005.mat using Guid(43ffecc626ca6104cafb995e91932e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dbe2fc56b3b9ad0dfa06799575f999f') in 0.027355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.990445 seconds.
-  path: Assets/Import/Market/Materials/Material.003.mat
-  artifactKey: Guid(1756d80e04ccd01458972bf45c77a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.003.mat using Guid(1756d80e04ccd01458972bf45c77a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e578e010768640493a17b0d7564daa66') in 0.0297714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Import/Market/Materials/Material.008.mat
-  artifactKey: Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Materials/Material.008.mat using Guid(5487e6bb4bd0edc4e878b4175a6560be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a424b332a3d860759324c63e8787a4d') in 0.0380232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.986585 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.prefab
-  artifactKey: Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.prefab using Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a73b12f015ecddfcaf88a0db0fa0c441') in 0.7173313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5650
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.blend
-  artifactKey: Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.blend using Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27eeba2a7e14d9f568e671e803d88a80') in 13.4461859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3149
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Import/Market/Market.prefab
-  artifactKey: Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Market.prefab using Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5497f5a6614ce38a104918e91568b7b') in 0.7174349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5650
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.573703 seconds.
-  path: Assets/Import/Market/textures/franki-chamaki-wkvKZR4e2OI-unsplash.jpg
-  artifactKey: Guid(8f4d62af79d0d1042a236d6d1993f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/franki-chamaki-wkvKZR4e2OI-unsplash.jpg using Guid(8f4d62af79d0d1042a236d6d1993f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d92c4b9c659e1e5e36a9f4d2cc350b0') in 0.0792957 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Import/Market/textures/tiles_0024_normal_directx_2k.png
-  artifactKey: Guid(73e707f2f0b269140b549393e1c5f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/tiles_0024_normal_directx_2k.png using Guid(73e707f2f0b269140b549393e1c5f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73be1f91381a042fc9679b4097bc5ed4') in 0.0370566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Import/Market/textures/supermarket-g75415e3d2_1920.jpg
-  artifactKey: Guid(68ffd5f6545532b4a8f8e68b09b140d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/supermarket-g75415e3d2_1920.jpg using Guid(68ffd5f6545532b4a8f8e68b09b140d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '040265cfe4fd234d743545c73bc00dad') in 0.0249394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Import/Market/textures/phil-aicken-xATMkkPIL24-unsplash.jpg
-  artifactKey: Guid(784e99124b506034dad087a048e8fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/phil-aicken-xATMkkPIL24-unsplash.jpg using Guid(784e99124b506034dad087a048e8fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b1ccf728b368760549724c9d184866') in 0.0352564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Import/Market/textures/Tiles082_2K_Color.jpg
-  artifactKey: Guid(f1027e8da4fc62d4581f36d48c64cc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/Tiles082_2K_Color.jpg using Guid(f1027e8da4fc62d4581f36d48c64cc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '573c75a8392a8cabf682118742345a73') in 0.0292004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Import/Market/textures/tiles_0024_height_2k.png
-  artifactKey: Guid(edaf70aaf9842f14688e1c07aefb48c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/tiles_0024_height_2k.png using Guid(edaf70aaf9842f14688e1c07aefb48c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66b2d27b7986a3519ec1755dbfd98a8') in 0.0311344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Import/Market/textures/Tiles082_2K_Roughness.jpg
-  artifactKey: Guid(9ffb49c8cb9c36e4783a4f9f5e53b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/textures/Tiles082_2K_Roughness.jpg using Guid(9ffb49c8cb9c36e4783a4f9f5e53b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a3780d5dc9c59e1f287f293de59fe4d') in 0.0349611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1040.659947 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.blend
-  artifactKey: Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.blend using Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49359bba3ed685338ab6e90145aec5de') in 10.9058074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3149
-
-========================================================================
-Received Import Request.
-  Time since last request: 1089.529661 seconds.
-  path: Assets/Import/Market/Market.prefab
-  artifactKey: Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Market.prefab using Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b955127688c064bccb93e171d1b7dac') in 0.4916283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5650
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.623510 seconds.
-  path: Assets/Import/Market/Market.prefab
-  artifactKey: Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/Market.prefab using Guid(98c8948ed0fa6ac49aab63c9a506f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9614b875b80b611f202a273a778aac5c') in 0.7449419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5650
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.163451 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.blend
-  artifactKey: Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.blend using Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9c498993f7cf24d773a895d3ca3181e') in 11.1924068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3037
+Unloading 230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7212 unused Assets / (3.4 MB). Loaded Objects now: 7939.
+Memory consumption went from 209.6 MB to 206.2 MB.
+Total: 44.274000 ms (FindLiveObjects: 3.066000 ms CreateObjectMapping: 20.254500 ms MarkObjects: 13.189900 ms  DeleteObjects: 7.761000 ms)
 
 ========================================================================
 Received Prepare
@@ -978,152 +226,53 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.942 seconds
-Refreshing native plugins compatible for Editor in 8.32 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.431 seconds
+Refreshing native plugins compatible for Editor in 8.41 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.453 seconds
-Domain Reload Profiling: 3386ms
-	BeginReloadAssembly (490ms)
+- Finished resetting the current domain, in  1.601 seconds
+Domain Reload Profiling: 3025ms
+	BeginReloadAssembly (365ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (34ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (159ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (1278ms)
-		LoadAssemblies (1071ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (388ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (335ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (1454ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (957ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (652ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.78 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.3 MB). Loaded Objects now: 7978.
-Memory consumption went from 207.6 MB to 201.2 MB.
-Total: 27.357500 ms (FindLiveObjects: 1.641100 ms CreateObjectMapping: 2.692900 ms MarkObjects: 14.130200 ms  DeleteObjects: 8.890500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 53.374005 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e4d96216b2770f06378dea1c0ce9702') in 0.6694386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.741290 seconds.
-  path: Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.blend
-  artifactKey: Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Rooms/Small House/uploads_files_2969879_Small+house.blend using Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99a2a2da3c2b1a568f2da62abad66b9') in 2.9410889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1949
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.941413 seconds.
-  path: Assets/Import/Small House/uploads_files_2969879_Small+house.blend
-  artifactKey: Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Small House/uploads_files_2969879_Small+house.blend using Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca558f45ad6071586c753e138a7aec4c') in 3.2426596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1947
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.418836 seconds.
-  path: Assets/Import/Market/uploads_files_4498769_convience_store.blend
-  artifactKey: Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Market/uploads_files_4498769_convience_store.blend using Guid(033d227cb40de5d4b8fc28c9f74f8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7731b37ee4b0848bf680c7129cbbe943') in 10.3968443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3146
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.459 seconds
-Refreshing native plugins compatible for Editor in 8.32 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.424 seconds
-Domain Reload Profiling: 2874ms
-	BeginReloadAssembly (380ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (933ms)
-		LoadAssemblies (794ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (753ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (285ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1424ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (289ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1602ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1015ms)
+		SetupLoadedEditorAssemblies (1138ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (712ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (843ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 13.19 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 16.55 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (7.5 MB). Loaded Objects now: 8000.
-Memory consumption went from 210.2 MB to 202.7 MB.
-Total: 38.275800 ms (FindLiveObjects: 1.768000 ms CreateObjectMapping: 2.406400 ms MarkObjects: 10.757500 ms  DeleteObjects: 23.341500 ms)
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7210 unused Assets / (3.2 MB). Loaded Objects now: 7945.
+Memory consumption went from 181.4 MB to 178.2 MB.
+Total: 41.857800 ms (FindLiveObjects: 2.074900 ms CreateObjectMapping: 3.479800 ms MarkObjects: 14.112000 ms  DeleteObjects: 22.187000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1144,63 +293,200 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.450 seconds
-Refreshing native plugins compatible for Editor in 10.19 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.485 seconds
+Refreshing native plugins compatible for Editor in 8.53 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.403 seconds
-Domain Reload Profiling: 2846ms
-	BeginReloadAssembly (363ms)
+- Finished resetting the current domain, in  1.735 seconds
+Domain Reload Profiling: 3212ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (955ms)
+		LoadAssemblies (780ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (320ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (909ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 42.00 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7210 unused Assets / (4.5 MB). Loaded Objects now: 7946.
+Memory consumption went from 182.2 MB to 177.7 MB.
+Total: 106.807300 ms (FindLiveObjects: 1.948900 ms CreateObjectMapping: 1.837500 ms MarkObjects: 10.724500 ms  DeleteObjects: 92.294100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.427 seconds
+Refreshing native plugins compatible for Editor in 8.41 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.443 seconds
+Domain Reload Profiling: 2865ms
+	BeginReloadAssembly (341ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (930ms)
+		LoadAssemblies (777ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (285ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (738ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.06 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7210 unused Assets / (6.0 MB). Loaded Objects now: 7947.
+Memory consumption went from 184.1 MB to 178.1 MB.
+Total: 15.607500 ms (FindLiveObjects: 2.133400 ms CreateObjectMapping: 1.731200 ms MarkObjects: 6.774300 ms  DeleteObjects: 4.963900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.396 seconds
+Refreshing native plugins compatible for Editor in 8.26 ms, found 8 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.540 seconds
+Domain Reload Profiling: 2931ms
+	BeginReloadAssembly (352ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (930ms)
-		LoadAssemblies (784ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (908ms)
+		LoadAssemblies (751ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (301ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1404ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1541ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (958ms)
+		SetupLoadedEditorAssemblies (1062ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (670ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (754ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.61 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 125.82 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.3 MB). Loaded Objects now: 8001.
-Memory consumption went from 212.0 MB to 205.6 MB.
-Total: 22.601300 ms (FindLiveObjects: 2.064100 ms CreateObjectMapping: 2.922100 ms MarkObjects: 9.794400 ms  DeleteObjects: 7.818300 ms)
+Unloading 7210 unused Assets / (6.1 MB). Loaded Objects now: 7948.
+Memory consumption went from 186.1 MB to 180.0 MB.
+Total: 26.629900 ms (FindLiveObjects: 2.486100 ms CreateObjectMapping: 2.448200 ms MarkObjects: 12.920700 ms  DeleteObjects: 8.769800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 1849.166973 seconds.
-  path: Assets/Import/Small House/uploads_files_2969879_Small+house.blend
-  artifactKey: Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Small House/uploads_files_2969879_Small+house.blend using Guid(54714c0962c3ff44aa20dfdafcf3d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e30e399f903450b649534b3f7bacb2') in 6.994922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1977
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.11 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7186 unused Assets / (3.2 MB). Loaded Objects now: 7948.
+Memory consumption went from 185.9 MB to 182.7 MB.
+Total: 161.762900 ms (FindLiveObjects: 1.992100 ms CreateObjectMapping: 2.169000 ms MarkObjects: 126.872700 ms  DeleteObjects: 30.726000 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -1219,1200 +505,52 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.458 seconds
-Refreshing native plugins compatible for Editor in 11.47 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.903 seconds
+Refreshing native plugins compatible for Editor in 9.38 ms, found 8 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.462 seconds
-Domain Reload Profiling: 2910ms
-	BeginReloadAssembly (365ms)
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 3305ms
+	BeginReloadAssembly (464ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (942ms)
-		LoadAssemblies (761ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (1242ms)
+		LoadAssemblies (971ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (358ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (320ms)
+		AnalyzeDomain (521ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (477ms)
 			ResolveRequiredComponents (23ms)
-	FinalizeReload (1462ms)
+	FinalizeReload (1413ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1032ms)
+		SetupLoadedEditorAssemblies (961ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (729ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (688ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (30ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 15.30 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 72.11 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.6 MB). Loaded Objects now: 8023.
-Memory consumption went from 214.1 MB to 207.5 MB.
-Total: 26.030000 ms (FindLiveObjects: 2.262500 ms CreateObjectMapping: 2.843600 ms MarkObjects: 11.077300 ms  DeleteObjects: 9.844400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.425 seconds
-Refreshing native plugins compatible for Editor in 8.94 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.463 seconds
-Domain Reload Profiling: 2882ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (940ms)
-		LoadAssemblies (751ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (317ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (1463ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (998ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (698ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.74 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.2 MB). Loaded Objects now: 8024.
-Memory consumption went from 215.9 MB to 209.7 MB.
-Total: 13.569100 ms (FindLiveObjects: 1.020600 ms CreateObjectMapping: 1.322500 ms MarkObjects: 6.776400 ms  DeleteObjects: 4.447200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.372 seconds
-Refreshing native plugins compatible for Editor in 9.00 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.420 seconds
-Domain Reload Profiling: 2785ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (887ms)
-		LoadAssemblies (741ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (317ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (281ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1421ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1021ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 14.87 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.5 MB). Loaded Objects now: 8025.
-Memory consumption went from 217.8 MB to 211.4 MB.
-Total: 23.953600 ms (FindLiveObjects: 2.066800 ms CreateObjectMapping: 2.161600 ms MarkObjects: 10.661100 ms  DeleteObjects: 9.061700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.526 seconds
-Refreshing native plugins compatible for Editor in 8.51 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.398 seconds
-Domain Reload Profiling: 2913ms
-	BeginReloadAssembly (346ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1000ms)
-		LoadAssemblies (788ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (393ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (349ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (1399ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1002ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (704ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 20.36 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.3 MB). Loaded Objects now: 8026.
-Memory consumption went from 219.7 MB to 213.4 MB.
-Total: 46.639600 ms (FindLiveObjects: 5.869900 ms CreateObjectMapping: 4.287300 ms MarkObjects: 18.417500 ms  DeleteObjects: 18.060300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.425 seconds
-Refreshing native plugins compatible for Editor in 8.38 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.483 seconds
-Domain Reload Profiling: 2901ms
-	BeginReloadAssembly (358ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (916ms)
-		LoadAssemblies (760ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (313ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1483ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1053ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (740ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.67 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.1 MB). Loaded Objects now: 8027.
-Memory consumption went from 221.7 MB to 215.6 MB.
-Total: 19.852100 ms (FindLiveObjects: 1.129700 ms CreateObjectMapping: 1.707900 ms MarkObjects: 10.222800 ms  DeleteObjects: 6.789400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.593 seconds
-Refreshing native plugins compatible for Editor in 8.70 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.404 seconds
-Domain Reload Profiling: 2990ms
-	BeginReloadAssembly (383ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (1064ms)
-		LoadAssemblies (920ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (309ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1404ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (994ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (698ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.71 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (5.9 MB). Loaded Objects now: 8028.
-Memory consumption went from 223.6 MB to 217.7 MB.
-Total: 22.223800 ms (FindLiveObjects: 1.251800 ms CreateObjectMapping: 1.730300 ms MarkObjects: 9.282200 ms  DeleteObjects: 9.956800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.423 seconds
-Refreshing native plugins compatible for Editor in 8.49 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.408 seconds
-Domain Reload Profiling: 2825ms
-	BeginReloadAssembly (348ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (920ms)
-		LoadAssemblies (765ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (339ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (296ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1408ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (999ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.30 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.8 MB). Loaded Objects now: 8029.
-Memory consumption went from 225.5 MB to 218.7 MB.
-Total: 25.634100 ms (FindLiveObjects: 1.636100 ms CreateObjectMapping: 2.884300 ms MarkObjects: 11.775000 ms  DeleteObjects: 9.336200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.411 seconds
-Refreshing native plugins compatible for Editor in 9.02 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.450 seconds
-Domain Reload Profiling: 2853ms
-	BeginReloadAssembly (328ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (938ms)
-		LoadAssemblies (756ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (355ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (308ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (1451ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (982ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (690ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.34 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.4 MB). Loaded Objects now: 8030.
-Memory consumption went from 227.4 MB to 221.0 MB.
-Total: 21.473800 ms (FindLiveObjects: 1.634200 ms CreateObjectMapping: 2.414800 ms MarkObjects: 10.153400 ms  DeleteObjects: 7.268300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.426 seconds
-Refreshing native plugins compatible for Editor in 8.62 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.485 seconds
-Domain Reload Profiling: 2901ms
-	BeginReloadAssembly (344ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (934ms)
-		LoadAssemblies (758ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (359ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (319ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1486ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1040ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (712ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.96 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.0 MB). Loaded Objects now: 8031.
-Memory consumption went from 229.4 MB to 223.4 MB.
-Total: 17.599800 ms (FindLiveObjects: 1.342300 ms CreateObjectMapping: 2.218900 ms MarkObjects: 8.670300 ms  DeleteObjects: 5.366200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.414 seconds
-Refreshing native plugins compatible for Editor in 9.15 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.472 seconds
-Domain Reload Profiling: 2879ms
-	BeginReloadAssembly (335ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (930ms)
-		LoadAssemblies (750ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (310ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1473ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1011ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.43 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.0 MB). Loaded Objects now: 8032.
-Memory consumption went from 231.3 MB to 225.3 MB.
-Total: 21.664300 ms (FindLiveObjects: 2.471500 ms CreateObjectMapping: 1.946900 ms MarkObjects: 10.194500 ms  DeleteObjects: 7.049400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.401 seconds
-Refreshing native plugins compatible for Editor in 9.09 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.454 seconds
-Domain Reload Profiling: 2848ms
-	BeginReloadAssembly (336ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (923ms)
-		LoadAssemblies (729ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (363ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (321ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1455ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1012ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (694ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 21.06 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.0 MB). Loaded Objects now: 8033.
-Memory consumption went from 233.2 MB to 227.2 MB.
-Total: 38.137100 ms (FindLiveObjects: 3.239200 ms CreateObjectMapping: 3.347600 ms MarkObjects: 18.068700 ms  DeleteObjects: 13.477200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2218.094423 seconds.
-  path: Assets/Import/HorrorProject/Hammer.prefab
-  artifactKey: Guid(2a134ad9aca18dd4e99cd57ecd220bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/Hammer.prefab using Guid(2a134ad9aca18dd4e99cd57ecd220bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34baaeaf67dd5b69b64139e072df5f75') in 0.8584023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Import/HorrorProject/Puddle.prefab
-  artifactKey: Guid(c1e944c5539832943a12579b14e4707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/Puddle.prefab using Guid(c1e944c5539832943a12579b14e4707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557a4a94a0c955019f8ce525b690f68a') in 0.0960796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Import/HorrorProject/PuddleKey.prefab
-  artifactKey: Guid(6e2d033135bb245429fa18041655d276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/PuddleKey.prefab using Guid(6e2d033135bb245429fa18041655d276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05737619376720edbb55cb59db32e619') in 0.0855875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Import/HorrorProject/InteractKeys.prefab
-  artifactKey: Guid(c24f8f6a4d3f83a44a47ac741e541f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/InteractKeys.prefab using Guid(c24f8f6a4d3f83a44a47ac741e541f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 12.58 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '06a20cad6380d64c95c4ccfa10d48ce0') in 0.3993377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Import/HorrorProject/Jar.prefab
-  artifactKey: Guid(3a33a93de6fd8cb41b9394ec5b45b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/Jar.prefab using Guid(3a33a93de6fd8cb41b9394ec5b45b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e61e83ba5c6f4a136fe55c9658791cb') in 0.0679557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Import/HorrorProject/Notes.prefab
-  artifactKey: Guid(aea8016e870b5df468a3911fd6bed640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/Notes.prefab using Guid(aea8016e870b5df468a3911fd6bed640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0ee306e15d77358bbfe527061f5953') in 0.1066234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Import/HorrorProject/ImpactWrench.prefab
-  artifactKey: Guid(c931ba6f62772254cac94992569fb9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/ImpactWrench.prefab using Guid(c931ba6f62772254cac94992569fb9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dcd1a7319ce282cd9bd0fdda23f48eb') in 0.0849932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Import/HorrorProject/Piano.prefab
-  artifactKey: Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HorrorProject/Piano.prefab using Guid(fdde99407c9600b4fa2c7b2a826b633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 9.18 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '0e8f23a1c34f2e18b113117d9d2809bd') in 0.4457324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2450
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.026070 seconds.
-  path: Assets/Import/HouseBasement/HouseBasement_001.prefab
-  artifactKey: Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HouseBasement/HouseBasement_001.prefab using Guid(c1e9c907a6b35054183e8693a18fad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42192e1b48d8c26d0b11fa517e2a24d1') in 0.1605344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  5.770 seconds
-Refreshing native plugins compatible for Editor in 12.47 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.968 seconds
-Domain Reload Profiling: 7733ms
-	BeginReloadAssembly (636ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (193ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (4861ms)
-		LoadAssemblies (4116ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1192ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (1134ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (1970ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1369ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (186ms)
-			ProcessInitializeOnLoadAttributes (978ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.87 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.4 MB). Loaded Objects now: 8056.
-Memory consumption went from 234.6 MB to 228.2 MB.
-Total: 27.586300 ms (FindLiveObjects: 1.831600 ms CreateObjectMapping: 2.521400 ms MarkObjects: 12.163400 ms  DeleteObjects: 11.067500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.451 seconds
-Refreshing native plugins compatible for Editor in 10.32 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.427 seconds
-Domain Reload Profiling: 2871ms
-	BeginReloadAssembly (357ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (937ms)
-		LoadAssemblies (768ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (312ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1428ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (980ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (692ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.10 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.0 MB). Loaded Objects now: 8057.
-Memory consumption went from 236.4 MB to 230.4 MB.
-Total: 21.000200 ms (FindLiveObjects: 1.402400 ms CreateObjectMapping: 2.592200 ms MarkObjects: 9.539800 ms  DeleteObjects: 7.463500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.458 seconds
-Refreshing native plugins compatible for Editor in 9.46 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.445 seconds
-Domain Reload Profiling: 2895ms
-	BeginReloadAssembly (340ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (966ms)
-		LoadAssemblies (770ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (324ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1445ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (999ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (690ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.62 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.4 MB). Loaded Objects now: 8058.
-Memory consumption went from 238.3 MB to 231.9 MB.
-Total: 12.967500 ms (FindLiveObjects: 1.013200 ms CreateObjectMapping: 0.932700 ms MarkObjects: 6.278800 ms  DeleteObjects: 4.740800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.401 seconds
-Refreshing native plugins compatible for Editor in 9.32 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.425 seconds
-Domain Reload Profiling: 2819ms
-	BeginReloadAssembly (335ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (920ms)
-		LoadAssemblies (736ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (357ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (314ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1425ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (968ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (660ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.64 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.4 MB). Loaded Objects now: 8059.
-Memory consumption went from 240.3 MB to 233.8 MB.
-Total: 14.643200 ms (FindLiveObjects: 1.255300 ms CreateObjectMapping: 1.196100 ms MarkObjects: 6.953900 ms  DeleteObjects: 5.236100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.449 seconds
-Refreshing native plugins compatible for Editor in 10.58 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.477 seconds
-Domain Reload Profiling: 2919ms
-	BeginReloadAssembly (346ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (942ms)
-		LoadAssemblies (755ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (330ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1478ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1019ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (725ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 8.26 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7191 unused Assets / (6.3 MB). Loaded Objects now: 8060.
-Memory consumption went from 242.2 MB to 235.9 MB.
-Total: 12.551300 ms (FindLiveObjects: 1.004900 ms CreateObjectMapping: 0.776700 ms MarkObjects: 6.238100 ms  DeleteObjects: 4.529600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects\Repository-BrackeysGameJam2024.1\WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.414 seconds
-Refreshing native plugins compatible for Editor in 8.54 ms, found 8 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.384 seconds
-Domain Reload Profiling: 2792ms
-	BeginReloadAssembly (332ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (941ms)
-		LoadAssemblies (753ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (47ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (283ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1385ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (980ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (689ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 19.93 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7203 unused Assets / (5.0 MB). Loaded Objects now: 8073.
-Memory consumption went from 244.2 MB to 239.1 MB.
-Total: 30.615400 ms (FindLiveObjects: 1.802100 ms CreateObjectMapping: 2.264800 ms MarkObjects: 11.867000 ms  DeleteObjects: 14.679000 ms)
+Unloading 7210 unused Assets / (4.5 MB). Loaded Objects now: 7949.
+Memory consumption went from 188.0 MB to 183.5 MB.
+Total: 101.187100 ms (FindLiveObjects: 2.418400 ms CreateObjectMapping: 1.942100 ms MarkObjects: 13.616500 ms  DeleteObjects: 83.207000 ms)
 
 Prepare: number of updated asset objects reloaded= 0

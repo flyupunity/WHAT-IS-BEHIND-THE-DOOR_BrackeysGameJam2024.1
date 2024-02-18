@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Playables;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MyPlayerScript : MonoBehaviour
 {
@@ -55,17 +56,6 @@ public class MyPlayerScript : MonoBehaviour
     {
         if (lockCursor) LockCursor();
         else UnlockCursor();
-
-        GameObject[] Ignore = GameObject.FindGameObjectsWithTag("Interact");
-        for (int i = 0; i < Ignore.Length; i++) 
-        {
-            if (Ignore[i].GetComponent<Collider>()) Physics.IgnoreCollision(Ignore[i].GetComponent<Collider>(), GetComponent<Collider>());
-                if (programmer)
-                {
-                    Ignore[i].SetActive(true);
-                    Ignore[i].transform.position = transform.position;
-                }
-        }
     }
     void Update()
     {
@@ -75,22 +65,48 @@ public class MyPlayerScript : MonoBehaviour
         {
             ThrowOut();
         }
-
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 10f, LayerMask, QueryTriggerInteraction.Ignore))
+        if (Physics.Raycast(ray, out hit, 10f, LayerMask, /*QueryTriggerInteraction.Ignore,*/ QueryTriggerInteraction.Collide))
         {
             if (hit.collider.gameObject.GetComponent<Key>())
 			{
-				hoverTMPro.text = hit.collider.gameObject.GetComponent<Key>().hoverText;
+				if (!hit.collider.gameObject.GetComponent<DoorScript>())
+				{
+					hoverTMPro.text = hit.collider.gameObject.GetComponent<Key>().hoverText;
+				}
+				else
+				{
+					if (hit.collider.gameObject.GetComponent<DoorScript>().type != DoorTypes.night) hoverTMPro.text = hit.collider.gameObject.GetComponent<Key>().hoverText;
+					else
+					{
+						if (Progress.Instance.isNight == true)
+						{ hoverTMPro.text = hit.collider.gameObject.GetComponent<Key>().hoverText; }
+						if (Progress.Instance.isNight == true)
+						{ hoverTMPro.text = ""; }
+					}
+				}
             }
+            // Open a door
             if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.GetComponent<DoorScript>())
 			{
 				hit.collider.gameObject.GetComponent<DoorScript>().OpenTheDoor();
-
             }
-
+			// Go to bed
+            if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.GetComponent<BedScript>())
+            {
+                hit.collider.gameObject.GetComponent<BedScript>().GoToBed();
+            }
+			
+            if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.GetComponent<RickRollCoputer>())
+            {
+                hit.collider.gameObject.GetComponent<RickRollCoputer>().RickRollOn();
+            }
+            if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.layer == 9)
+            {
+                SceneManager.LoadScene("Titres");
+            }
             //Add object in inventary
             if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.tag == "Interacting" && hit.collider.gameObject.GetComponent<Key>() && hit.collider.gameObject.GetComponent<Key>().dontTouch == false)
 			{
@@ -226,8 +242,7 @@ public class MyPlayerScript : MonoBehaviour
 	{
 		Buttons.SetActive(!Buttons.activeSelf);
 	}
-
-	public void NotActive()
+    public void NotActive()
 	{
 
 
