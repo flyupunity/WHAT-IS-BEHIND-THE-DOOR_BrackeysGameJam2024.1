@@ -1,0 +1,287 @@
+# Blender 3.1.0 MTL File: 'Spooky Hallway.blend'
+# www.blender.org
+
+newmtl Back_Wall_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Back Wall_diffuse_xtm_bake_D.png
+map_Ks  T_Back Wall_specular_xtm_bake_S.png
+map_Ns  T_Back Wall_roughness_xtm_bake_R.png
+map_refl  T_Back Wall_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Back Wall_normal_xtm_bake_N.png
+
+newmtl Barrel_2_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Barrel 2_diffuse_xtm_bake_D.png
+map_Ks  T_Barrel 2_specular_xtm_bake_S.png
+map_Ns  T_Barrel 2_roughness_xtm_bake_R.png
+map_refl  T_Barrel 2_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Barrel 2_normal_xtm_bake_N.png
+
+newmtl Barrel_3_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Barrel 3_diffuse_xtm_bake_D.png
+map_Ks  T_Barrel 3_specular_xtm_bake_S.png
+map_Ns  T_Barrel 3_roughness_xtm_bake_R.png
+map_refl  T_Barrel 3_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Barrel 3_normal_xtm_bake_N.png
+
+newmtl Barrel_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Barrel_diffuse_xtm_bake_D.png
+map_Ks  T_Barrel_specular_xtm_bake_S.png
+map_Ns  T_Barrel_roughness_xtm_bake_R.png
+map_refl  T_Barrel_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Barrel_normal_xtm_bake_N.png
+
+newmtl Door_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Door_diffuse_xtm_bake_D.png
+map_Ks  T_Door_specular_xtm_bake_S.png
+map_Ns  T_Door_roughness_xtm_bake_R.png
+map_refl  T_Door_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Door_normal_xtm_bake_N.png
+
+newmtl Door_Frame_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Door Frame_diffuse_xtm_bake_D.png
+map_Ks  T_Door Frame_specular_xtm_bake_S.png
+map_Ns  T_Door Frame_roughness_xtm_bake_R.png
+map_refl  T_Door Frame_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Door Frame_normal_xtm_bake_N.png
+
+newmtl Floor_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Floor_diffuse_xtm_bake_D.png
+map_Ks  T_Floor_specular_xtm_bake_S.png
+map_Ns  T_Floor_roughness_xtm_bake_R.png
+map_refl  T_Floor_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Floor_normal_xtm_bake_N.png
+
+newmtl Handle_2_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Handle 2_diffuse_xtm_bake_D.png
+map_Ks  T_Handle 2_specular_xtm_bake_S.png
+map_Ns  T_Handle 2_roughness_xtm_bake_R.png
+map_refl  T_Handle 2_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Handle 2_normal_xtm_bake_N.png
+
+newmtl Handle_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Handle_diffuse_xtm_bake_D.png
+map_Ks  T_Handle_specular_xtm_bake_S.png
+map_Ns  T_Handle_roughness_xtm_bake_R.png
+map_refl  T_Handle_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Handle_normal_xtm_bake_N.png
+
+newmtl Left_Wall_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Left Wall_diffuse_xtm_bake_D.png
+map_Ks  T_Left Wall_specular_xtm_bake_S.png
+map_Ns  T_Left Wall_roughness_xtm_bake_R.png
+map_refl  T_Left Wall_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Left Wall_normal_xtm_bake_N.png
+
+newmtl Light_2_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Light 2_diffuse_xtm_bake_D.png
+map_Ks  T_Light 2_specular_xtm_bake_S.png
+map_Ns  T_Light 2_roughness_xtm_bake_R.png
+map_refl  T_Light 2_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Light 2_normal_xtm_bake_N.png
+
+newmtl Light_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Light_diffuse_xtm_bake_D.png
+map_Ks  T_Light_specular_xtm_bake_S.png
+map_Ns  T_Light_roughness_xtm_bake_R.png
+map_refl  T_Light_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Light_normal_xtm_bake_N.png
+
+newmtl Light_Stand_2_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Light Stand 2_diffuse_xtm_bake_D.png
+map_Ks  T_Light Stand 2_specular_xtm_bake_S.png
+map_Ns  T_Light Stand 2_roughness_xtm_bake_R.png
+map_refl  T_Light Stand 2_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Light Stand 2_normal_xtm_bake_N.png
+
+newmtl Light_Stand_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Light Stand_diffuse_xtm_bake_D.png
+map_Ks  T_Light Stand_specular_xtm_bake_S.png
+map_Ns  T_Light Stand_roughness_xtm_bake_R.png
+map_refl  T_Light Stand_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Light Stand_normal_xtm_bake_N.png
+
+newmtl Right_Wall_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Right Wall_diffuse_xtm_bake_D.png
+map_Ks  T_Right Wall_specular_xtm_bake_S.png
+map_Ns  T_Right Wall_roughness_xtm_bake_R.png
+map_refl  T_Right Wall_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Right Wall_normal_xtm_bake_N.png
+
+newmtl Top_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Top_diffuse_xtm_bake_D.png
+map_Ks  T_Top_specular_xtm_bake_S.png
+map_Ns  T_Top_roughness_xtm_bake_R.png
+map_refl  T_Top_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Top_normal_xtm_bake_N.png
+
+newmtl Vent_Bake
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Vent_diffuse_xtm_bake_D.png
+map_Ks  T_Vent_specular_xtm_bake_S.png
+map_Ns  T_Vent_roughness_xtm_bake_R.png
+map_refl  T_Vent_metallic_xtm_bake_MT.png
+map_Bump  -bm 0.500000 T_Vent_normal_xtm_bake_N.png
+
+newmtl Vent_Bake.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Vent_diffuse_xtm_bake.001_D.png
+map_Ks  T_Vent_specular_xtm_bake.001_S.png
+map_Ns  T_Vent_roughness_xtm_bake.001_R.png
+map_refl  T_Vent_metallic_xtm_bake.001_MT.png
+map_Bump  -bm 0.500000 T_Vent_normal_xtm_bake.001_N.png
+
+newmtl Vent_Bake.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  T_Vent_diffuse_xtm_bake.002_D.png
+map_Ks  T_Vent_specular_xtm_bake.002_S.png
+map_Ns  T_Vent_roughness_xtm_bake.002_R.png
+map_refl  T_Vent_metallic_xtm_bake.002_MT.png
+map_Bump  -bm 0.500000 T_Vent_normal_xtm_bake.002_N.png
