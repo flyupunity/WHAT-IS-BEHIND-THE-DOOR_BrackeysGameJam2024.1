@@ -1,0 +1,26 @@
+Edit project & edit .gitignore
+
+
+
+
+without(edit .gitignore)
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\BeginCutScene\to Living Room Interior for Blender - Cycles Ready\uploads_files_3928541_RestRoom-Interior.blend
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Houses\005\uploads_files_2186762_-p_hut_003_export.zip
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Market\uploads_files_4498769_convience_store.blend
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Market\uploads_files_4498769_convience_store.blend1
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Rooms\free car parking lot\uploads_files_4562929_textures.zip
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Rooms\Hospital interior\uploads_files_3198702_Hospital.blend
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\Assets\Import\GameScene\Rooms\Living room- warm lighting\uploads_files_2447090_living+room+archives.rar
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\MyBuilds\WebGL\FarFromTheLight_WebGL_1.0.4.1.zip
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\MyBuilds\WebGL\FarFromTheLight_WebGL_1.0.4.1\Build\FarFromTheLight_WebGL_1.0.4.1.data.br
+
+WHAT-IS-BEHIND-THE-DOOR_BrackeysGameJam2024.1\MyBuilds\Windows\FarFromTheLight_Windows64bit_1.0.2.zip
