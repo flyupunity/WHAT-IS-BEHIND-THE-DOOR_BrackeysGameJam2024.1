@@ -27,7 +27,7 @@ public class DoorScript : MonoBehaviour
                 type = DoorTypes.off;
                 //GetComponentInParent<Animator>().speed = -1;
                 GetComponentInParent<Animator>().SetTrigger("night");
-                GetComponentInParent<AudioSource>().clip = Progress.Instance.closedDoorClip;
+                GetComponentInParent<AudioSource>().clip = SetValuesForVariables.Instance.closedDoorClip;
             }
         }
     }

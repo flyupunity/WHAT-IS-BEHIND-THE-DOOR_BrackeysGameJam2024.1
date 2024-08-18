@@ -16,7 +16,7 @@ public class RickRollCoputer : MonoBehaviour
         yield return new WaitForSecondsRealtime(5);
         rickRoll.SetActive(false);
         screamer.SetActive(true);
-        StartCoroutine(screamer.GetComponent<Screamer>().ScrimerCorutine());
+        StartCoroutine(screamer.GetComponent<Screamer>().PlayRamdomScrimerSoundCorutine());
         Destroy(this);
     }
 }

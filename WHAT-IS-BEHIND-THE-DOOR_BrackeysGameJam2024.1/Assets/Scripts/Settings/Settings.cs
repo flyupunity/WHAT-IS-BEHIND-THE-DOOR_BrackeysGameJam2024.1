@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-using Unity.VisualScripting;
 
 public class Settings : MonoBehaviour
 {
@@ -11,24 +10,32 @@ public class Settings : MonoBehaviour
     //public AudioMixer audioMixer1;
 
     [SerializeField] private Slider volumeSlider = null;
-    [SerializeField] private Slider pitchSlider = null;
+    //[SerializeField] private Slider pitchSlider = null;
+    [SerializeField] private Slider mouseSensitivitySlider = null;
 
     [SerializeField] private Toggle audioToggle = null;
-    [SerializeField] private Toggle postProcessingToggle = null; 
+    [SerializeField] private Toggle postProcessingToggle = null;
 
+    private FirstPersonController FPC_script = null;
     private GameObject[] postProcessingObjs = null;
 
     private void Start() {
         postProcessingObjs = GameObject.FindGameObjectsWithTag("PostProcessing");
-        if(PlayerPrefs.GetFloat("volume") != 0) {
+        FPC_script = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
+        if (PlayerPrefs.GetFloat("volume") != 0) {
             volumeSlider.value = PlayerPrefs.GetFloat("volume");
             audioMixer.SetFloat("volume", PlayerPrefs.GetFloat("volume"));
         }
-        if(PlayerPrefs.GetFloat("pitch") != 0){
+        /*if(PlayerPrefs.GetFloat("pitch") != 0){
             pitchSlider.value = PlayerPrefs.GetFloat("pitch");
             audioMixer.SetFloat("pitch", PlayerPrefs.GetFloat("pitch"));
+        }*/
+        if (PlayerPrefs.GetFloat("mouseSensitivity") != 0)
+        {
+            mouseSensitivitySlider.value = PlayerPrefs.GetFloat("mouseSensitivity");
+            FPC_script.mouseSensitivity = PlayerPrefs.GetFloat("mouseSensitivity");
         }
-        if(PlayerPrefs.GetInt("audioToggle") == 1) audioToggle.isOn = false;
+        if (PlayerPrefs.GetInt("audioToggle") == 1) audioToggle.isOn = false;
         if(PlayerPrefs.GetInt("audioToggle") == 2) audioToggle.isOn = true;
         if(PlayerPrefs.GetInt("postProcessingToggle") == 1){
             SetPostProcessing(false);
@@ -44,11 +51,11 @@ public class Settings : MonoBehaviour
         audioMixer.SetFloat("volume", volume);
         //audioMixer1.SetFloat("volume", volume + 20f);
     }
-    public void SetPitch(float pitch)
+    /*public void SetPitch(float pitch)
     {
         PlayerPrefs.SetFloat("pitch", pitch);
         audioMixer.SetFloat("pitch", pitch);
-    }
+    }*/
     public void SetAudioPause(bool value){
         if(value){
             volumeSlider.value = PlayerPrefs.GetFloat("volume");
@@ -67,21 +74,21 @@ public class Settings : MonoBehaviour
         }
         PlayerPrefs.SetInt("postProcessingToggle", value==false?1:2);
     }
+    public void MouseSensitivity(float sensitivity)
+    {
+        PlayerPrefs.SetFloat("mouseSensitivity", sensitivity);
+        FPC_script.mouseSensitivity = sensitivity;
+    }
     public void ResetSettings()
     {
         audioToggle.isOn = true;
         volumeSlider.value = 0;
         volumeSlider.interactable = true;
         audioMixer.SetFloat("volume", 0);
-
         SetPostProcessing(true);
-
-        pitchSlider.value = 1;
-        audioMixer.SetFloat("pitch", 1);
+        MouseSensitivity(2);
+        volumeSlider.value = 2;
+        //pitchSlider.value = 1;
+        //audioMixer.SetFloat("pitch", 1);
     }
-    /*public void SetPitch(float pitch)
-    {
-        audioMixer.SetFloat("pitch", pitch);
-        audioMixer1.SetFloat("pitch", pitch);
-    }*/
 }

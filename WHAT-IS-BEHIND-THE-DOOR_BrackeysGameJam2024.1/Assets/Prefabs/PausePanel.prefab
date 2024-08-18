@@ -335,7 +335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6fda8d05c98cf4a4c8caa65906010d43, type: 2}
   volumeSlider: {fileID: 7400360458256310374}
-  pitchSlider: {fileID: 1545095375975926751}
+  mouseSensitivitySlider: {fileID: 3713557003102928675}
   audioToggle: {fileID: 7119267014026097386}
   postProcessingToggle: {fileID: 3598791589626847962}
 --- !u!1 &1477482773042239161
@@ -2047,6 +2047,16 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5410841497799433431, guid: 71d8ed82b920e7940b4902748dad4be7,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7562555642199600570}
+    - target: {fileID: 5410841497799433431, guid: 71d8ed82b920e7940b4902748dad4be7,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MouseSensitivity
+      objectReference: {fileID: 0}
     - target: {fileID: 7921646790477015083, guid: 71d8ed82b920e7940b4902748dad4be7,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2063,18 +2073,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71d8ed82b920e7940b4902748dad4be7, type: 3}
---- !u!114 &1545095375975926751 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7921646790477015083, guid: 71d8ed82b920e7940b4902748dad4be7,
-    type: 3}
-  m_PrefabInstance: {fileID: 8691419274244924404}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3598791589626847962 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5291560399823765806, guid: 71d8ed82b920e7940b4902748dad4be7,
@@ -2085,6 +2083,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3713557003102928675 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5410841497799433431, guid: 71d8ed82b920e7940b4902748dad4be7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8691419274244924404}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5140280881502308486 stripped

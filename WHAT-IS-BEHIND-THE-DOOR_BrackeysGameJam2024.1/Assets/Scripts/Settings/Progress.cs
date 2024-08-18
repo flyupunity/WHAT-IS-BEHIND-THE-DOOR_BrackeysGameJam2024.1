@@ -9,7 +9,7 @@ public class Progress : MonoBehaviour
     public bool isNight = false;
     public bool dontMove = false;
 
-    public AudioClip closedDoorClip = null;
+
     public static Progress Instance;
     void Awake()
     {

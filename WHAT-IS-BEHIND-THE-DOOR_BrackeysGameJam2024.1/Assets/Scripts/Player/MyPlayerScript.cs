@@ -50,6 +50,7 @@ public class MyPlayerScript : MonoBehaviour
 
     Ray ray;
     Quaternion CameraRotation;
+    [SerializeField] private float rayLenght = 5f;
 
 
     void Awake()
@@ -68,7 +69,7 @@ public class MyPlayerScript : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 10f, LayerMask, /*QueryTriggerInteraction.Ignore,*/ QueryTriggerInteraction.Collide))
+        if (Physics.Raycast(ray, out hit, rayLenght, LayerMask, /*QueryTriggerInteraction.Ignore,*/ QueryTriggerInteraction.Collide))
         {
             if (hit.collider.gameObject.GetComponent<Key>())
 			{
@@ -93,7 +94,11 @@ public class MyPlayerScript : MonoBehaviour
 			{
 				hit.collider.gameObject.GetComponent<DoorScript>().OpenTheDoor();
             }
-			// Go to bed
+            if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.GetComponent<BasementDoor>())
+            {
+                GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneMan>().SceneName("SceneOfRooms");
+            }
+            // Go to bed
             if (Input.GetKeyDown(DrawRays) && hit.collider.gameObject.GetComponent<BedScript>())
             {
                 hit.collider.gameObject.GetComponent<BedScript>().GoToBed();

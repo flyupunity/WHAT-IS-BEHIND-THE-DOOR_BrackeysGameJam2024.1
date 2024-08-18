@@ -33,6 +33,8 @@ public class BedScript : MonoBehaviour
         if(nightStarted && Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("WakeUp");
+            nightStarted = false;
+
         }
     }
     public void NightStarting()

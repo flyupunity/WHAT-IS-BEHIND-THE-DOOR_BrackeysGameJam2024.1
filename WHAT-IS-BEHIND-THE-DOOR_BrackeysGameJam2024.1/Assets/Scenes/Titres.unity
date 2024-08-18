@@ -1638,6 +1638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isNight: 0
+  dontMove: 0
+  closedDoorClip: {fileID: 0}
 --- !u!4 &1081077505
 Transform:
   m_ObjectHideFlags: 0
@@ -1719,7 +1721,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 2717908991
+    rgba: 402653183
   m_fontColor: {r: 1, g: 1, b: 1, a: 0.6313726}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1817,12 +1819,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272016761}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.359974, y: -101.51999, z: -9720}
+  m_LocalScale: {x: 108, y: 108, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1607302052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1272016765
 AudioSource:
@@ -1929,7 +1931,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272016761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f79d454be86878469497580c9023c25, type: 3}
   m_Name: 
@@ -2329,6 +2331,7 @@ RectTransform:
   - {fileID: 327676198}
   - {fileID: 1569220446}
   - {fileID: 1174749401}
+  - {fileID: 1272016763}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2759,7 +2762,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 437333313}
   - {fileID: 1299655586}
-  - {fileID: 1272016763}
   - {fileID: 8043368}
   - {fileID: 443948720}
   - {fileID: 1607302052}
